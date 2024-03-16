@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Outer Rim - Galactic Republic</name>
+	<description>Outer Rim module adding the Galactic Republic faction.</description>
+	<author>Neronix17</author>
+	<packageId>Neronix17.OuterRim.GalacticRepublic</packageId>
+	<url>https://www.patreon.com/neronix17</url>
+	<supportedVersions>
+		<li>1.4</li>
+	</supportedVersions>
+	<modDependencies>
+		<li>
+			<packageId>Neronix17.OuterRim.Core</packageId>
+			<displayName>Outer Rim - Core</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=839005762</steamWorkshopUrl>
+		</li>
+	</modDependencies>
+	<loadAfter>
+		<li>Neronix17.OuterRim.Core</li>
+	</loadAfter>
+</ModMetaData>

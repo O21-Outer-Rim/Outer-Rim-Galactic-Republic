@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<TraderKindDef ParentName="OuterRim_TraderBaseBase">
+		<defName>OuterRim_GalacticRepublic_Base</defName>
+		<faction>OuterRim_GalacticRepublic</faction>
+		<stockGenerators>
+			<!-- Weapons -->
+			<li Class="StockGenerator_Tag">
+				<tradeTag>OuterRim_Republic_Weapons</tradeTag>
+				<thingDefCountRange>3~4</thingDefCountRange>
+				<countRange>3~6</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>OuterRim_ResearchCore_GalacticRepublic</thingDef>
+				<countRange>-1~1</countRange>
+			</li>
+		</stockGenerators>
+	</TraderKindDef>
+
+	<TraderKindDef ParentName="OuterRim_TraderCaravanBase">
+		<defName>OuterRim_GalacticRepublic_Carvan</defName>
+		<faction>OuterRim_GalacticRepublic</faction>
+		<stockGenerators>
+			<!-- Weapons -->
+			<li Class="StockGenerator_Tag">
+				<tradeTag>OuterRim_Republic_Weapons</tradeTag>
+				<thingDefCountRange>3~4</thingDefCountRange>
+				<countRange>3~6</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>OuterRim_ResearchCore_GalacticRepublic</thingDef>
+				<countRange>-1~1</countRange>
+			</li>
+		</stockGenerators>
+	</TraderKindDef>
+
+	<TraderKindDef ParentName="OuterRim_TraderVisitorBase">
+		<defName>OuterRim_GalacticRepublic_Visitor</defName>
+		<faction>OuterRim_GalacticRepublic</faction>
+		<stockGenerators>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>OuterRim_ResearchCore_GalacticRepublic</thingDef>
+				<countRange>-1~1</countRange>
+			</li>
+		</stockGenerators>
+	</TraderKindDef>
+
+</Defs>

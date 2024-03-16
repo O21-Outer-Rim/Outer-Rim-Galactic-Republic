@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="OuterRimBlasterBase_SniperRifle">
+		<defName>OuterRim_DC15xSniperRifle</defName>
+		<label>dc-15x sniper rifle</label>
+		<description>The DC-15x sniper rifle is a type of blaster used by the Galactic Republic. It is based on the DC-15A blaster rifle with significant modifications.</description>
+		<graphicData>
+			<texPath>OuterRim/Weapons/DC15XSniper</texPath>
+			<drawSize>1.2</drawSize>	
+		</graphicData>
+    	<equippedAngleOffset>45</equippedAngleOffset>
+		<recipeMaker>
+			<researchPrerequisite>OuterRim_RepublicArmory</researchPrerequisite>
+		</recipeMaker>
+		<weaponTags>
+			<li>ORRepublicAny</li>
+			<li>ORRepublicSniper</li>
+		</weaponTags>
+		<tradeTags>
+			<li>OuterRim_Republic_Weapons</li>
+		</tradeTags>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>OuterRim_Bullet_SniperRed</defaultProjectile>
+				<warmupTime>1.2</warmupTime>
+				<range>42</range>
+				<soundCast>OuterRim_Shot_DLT20BBlasterBolt</soundCast>
+				<soundCastTail>GunTail_Medium</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+			</li>
+		</verbs>
+	</ThingDef>
+
+</Defs>

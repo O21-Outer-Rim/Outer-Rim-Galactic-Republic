@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	
+	<ResearchProjectDef ParentName="OuterRim_ResearchBaseMain">
+		<defName>OuterRim_RepublicArmory</defName>
+		<label>Republic Armory</label>
+		<description>Unlocks crafting of the Galactic Republic equipment.</description>
+		<prerequisites>
+			<li>OuterRim_HypertechFabrication</li>
+		</prerequisites>
+		<requiredResearchFacilities>
+			<li>OuterRim_ResearchCore_GalacticRepublic</li>
+		</requiredResearchFacilities>
+		<researchViewX>1</researchViewX>
+		<researchViewY>2</researchViewY>
+	</ResearchProjectDef>
+
+</Defs>

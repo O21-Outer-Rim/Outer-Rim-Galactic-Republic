@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<TabulaRasa.UpdateDef>
+		<defName>OuterRim_Republic_29022024</defName>
+		<date>2024/02/29</date>
+		<banner>UpdateInfo/O21OuterRim</banner>
+		<contentList>
+			<li>
+				<header>Clone Commandos</header>
+				<text>The Clone Commando armour is finally included! So you'll see them show up occasionally as heavy troopers among raids from the Galactic Republic, armed with DC-17m blasters. The armour only comes in a blank recolourable set for now.</text>
+			</li>
+		</contentList>
+		<links>
+			<li>
+				<linkLabel>Steam Workshop</linkLabel>
+				<linkUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2919248699</linkUrl>
+				<linkTex>TabulaRasa/UI/Steam</linkTex>
+			</li>
+			<li>
+				<linkLabel>Outer Rim Collection</linkLabel>
+				<linkUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=1927864603</linkUrl>
+			</li>
+		</links>
+		<important>False</important>
+	</TabulaRasa.UpdateDef>
+
+</Defs>

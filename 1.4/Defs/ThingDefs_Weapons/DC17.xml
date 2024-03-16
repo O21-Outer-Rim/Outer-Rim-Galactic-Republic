@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="OuterRimBlasterBase_Pistol">
+		<defName>OuterRim_DC17HandBlaster</defName>
+		<label>dc-17 hand blaster</label>
+		<description>The DC-17 hand blaster was a model of blaster pistol carried by many Republic clone troopers during the Clone Wars, particularly high-ranking commanders, captains, and ARC troopers.</description>
+		<graphicData>
+			<texPath>OuterRim/Weapons/DC17_Blaster</texPath>
+		</graphicData>
+		<recipeMaker>
+			<researchPrerequisite>OuterRim_RepublicArmory</researchPrerequisite>
+		</recipeMaker>
+		<weaponTags>
+			<li>ORRepublicAny</li>
+			<li>ORRepublicLight</li>
+		</weaponTags>
+		<tradeTags>
+			<li>OuterRim_Republic_Weapons</li>
+		</tradeTags>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>OuterRim_Bullet_PistolBlue</defaultProjectile>
+				<warmupTime>0.6</warmupTime>
+				<range>24</range>
+				<soundCast>OuterRim_Shot_MediumBlasterBolt</soundCast>
+				<soundCastTail>GunTail_Medium</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+			</li>
+		</verbs>
+	</ThingDef>
+
+</Defs>

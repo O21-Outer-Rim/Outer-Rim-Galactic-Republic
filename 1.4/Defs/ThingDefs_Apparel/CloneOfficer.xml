@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="OuterRim_UniformBodyFabricatedBase">
+		<defName>OuterRim_RepublicOfficerUniform</defName>
+		<label>republic officer uniform</label>
+		<description>A durable utalitarian uniform used by officers of the Republic.</description>
+		<graphicData>
+			<texPath>OuterRim/Apparel/CloneOfficer/Apparel</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<color>(255, 255, 255)</color>
+		</graphicData>
+		<recipeMaker>
+			<researchPrerequisite>OuterRim_RepublicArmory</researchPrerequisite>
+		</recipeMaker>
+		<apparel>
+			<tags Inherit="False">
+				<li>CloneOfficer</li>
+			</tags>
+			<wornGraphicPath>OuterRim/Apparel/CloneOfficer/Apparel</wornGraphicPath>
+			<useWornGraphicMask>true</useWornGraphicMask>
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(255, 255, 255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+	<ThingDef ParentName="OuterRim_UniformHeadwearFabricatedBase">
+		<defName>OuterRim_RepublicOfficerCap</defName>
+		<label>republic officer cap</label>
+		<description>A durable utalitarian uniform used by officers of the Republic.</description>
+		<graphicData>
+			<texPath>OuterRim/Apparel/CloneOfficer/Head</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<color>(255, 255, 255)</color>
+		</graphicData>
+		<recipeMaker>
+			<researchPrerequisite>OuterRim_RepublicArmory</researchPrerequisite>
+		</recipeMaker>
+		<apparel>
+			<tags Inherit="False">
+				<li>CloneOfficer</li>
+			</tags>
+			<wornGraphicPath>OuterRim/Apparel/CloneOfficer/Head</wornGraphicPath>
+			<useWornGraphicMask>true</useWornGraphicMask>
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(255, 255, 255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+</Defs>

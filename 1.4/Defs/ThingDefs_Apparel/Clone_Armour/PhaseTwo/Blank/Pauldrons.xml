@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	
+	<ThingDef ParentName="ClonePauldronsIIBase">
+		<defName>OuterRim_ClonePauldronsII_Trooper</defName>
+		<label>clone pauldrons II, trooper (blank)</label>
+		<graphicData>
+			<texPath>OuterRim/Apparel/CloneTrooper/PhaseTwo/Blank/Pauldrons/Apparel</texPath>
+		</graphicData>
+		<apparel>
+			<tags Inherit="False">
+				<li>RepublicCloneApparel</li>
+				<li>CloneTrooperIIBlank</li>
+			</tags>
+			<wornGraphicPath>OuterRim/Apparel/CloneTrooper/PhaseTwo/Blank/Pauldrons/Apparel</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+	
+	<ThingDef ParentName="ClonePauldronsIIBase">
+		<defName>OuterRim_ClonePauldronsII_ARC</defName>
+		<label>clone pauldrons II, ARC (blank)</label>
+		<graphicData>
+			<texPath>OuterRim/Apparel/CloneTrooper/PhaseTwo/Blank/PauldronsARC/Apparel</texPath>
+		</graphicData>
+		<apparel>
+			<tags Inherit="False">
+				<li>RepublicCloneApparel</li>
+				<li>CloneTrooperIIBlank</li>
+			</tags>
+			<wornGraphicPath>OuterRim/Apparel/CloneTrooper/PhaseTwo/Blank/PauldronsARC/Apparel</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+	
+	<ThingDef ParentName="ClonePauldronsIIBase">
+		<defName>OuterRim_ClonePauldronsII_Rank</defName>
+		<label>clone pauldrons II, Rank (blank)</label>
+		<graphicData>
+			<texPath>OuterRim/Apparel/CloneTrooper/PhaseTwo/Blank/PauldronsRank/Apparel</texPath>
+		</graphicData>
+		<apparel>
+			<tags Inherit="False">
+				<li>RepublicCloneApparel</li>
+				<li>CloneTrooperIIBlank</li>
+			</tags>
+			<wornGraphicPath>OuterRim/Apparel/CloneTrooper/PhaseTwo/Blank/PauldronsRank/Apparel</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+	
+</Defs>

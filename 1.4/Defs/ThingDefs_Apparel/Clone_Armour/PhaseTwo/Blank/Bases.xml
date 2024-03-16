@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="OuterRim_MediumArmorFabricatedBase" Name="CloneCuirassIIBase" Abstract="True">
+		<techLevel>Ultra</techLevel>
+		<description>Phase II clone trooper armor was the standard issue armor of the Grand Army of the Republic's clone troopers during the later days of the Clone Wars. More advanced than its predecessor, it was capable of supporting more specialized equipment. Unlike the Phase I, the armor did not feature an internal life support system, necessitating the use of an external respirator in the absence of breathable atmosphere. Prototypes of the armor were first fielded sometime prior to the Battle of Ryloth, to be tested by the elite ARC troopers. After the reorganization of the Galactic Republic into the Galactic Empire, the kit would be retained by early stormtroopers until the introduction of their own unique armor set. However, the Empire's shocktroopers and Purge Troopers would continue to use the armor years after its replacement by most other branches.</description>
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<color>(255, 255, 255)</color>
+			<colorTwo>(255, 255, 255)</colorTwo>
+		</graphicData>
+		<recipeMaker>
+			<researchPrerequisite>OuterRim_RepublicArmory</researchPrerequisite>
+		</recipeMaker>
+		<apparel>
+			<useWornGraphicMask>true</useWornGraphicMask>
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(255, 255, 255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+	
+	<ThingDef ParentName="OuterRim_MediumHelmetFabricatedBase" Name="CloneHelmetIIBase" Abstract="True">
+		<description>Phase II clone trooper armor was the standard issue armor of the Grand Army of the Republic's clone troopers during the later days of the Clone Wars. More advanced than its predecessor, it was capable of supporting more specialized equipment. Unlike the Phase I, the armor did not feature an internal life support system, necessitating the use of an external respirator in the absence of breathable atmosphere. Prototypes of the armor were first fielded sometime prior to the Battle of Ryloth, to be tested by the elite ARC troopers. After the reorganization of the Galactic Republic into the Galactic Empire, the kit would be retained by early stormtroopers until the introduction of their own unique armor set. However, the Empire's shocktroopers and Purge Troopers would continue to use the armor years after its replacement by most other branches.</description>
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<color>(255, 255, 255)</color>
+			<colorTwo>(255, 255, 255)</colorTwo>
+		</graphicData>
+		<recipeMaker>
+			<researchPrerequisite>OuterRim_RepublicArmory</researchPrerequisite>
+		</recipeMaker>
+		<apparel>
+			<useWornGraphicMask>true</useWornGraphicMask>
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(255, 255, 255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+	
+	<ThingDef ParentName="OuterRim_MediumPauldronsFabricatedBase" Name="ClonePauldronsIIBase" Abstract="True">
+		<description>Phase II clone trooper armor was the standard issue armor of the Grand Army of the Republic's clone troopers during the later days of the Clone Wars. More advanced than its predecessor, it was capable of supporting more specialized equipment. Unlike the Phase I, the armor did not feature an internal life support system, necessitating the use of an external respirator in the absence of breathable atmosphere. Prototypes of the armor were first fielded sometime prior to the Battle of Ryloth, to be tested by the elite ARC troopers. After the reorganization of the Galactic Republic into the Galactic Empire, the kit would be retained by early stormtroopers until the introduction of their own unique armor set. However, the Empire's shocktroopers and Purge Troopers would continue to use the armor years after its replacement by most other branches.</description>
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<color>(255, 255, 255)</color>
+			<colorTwo>(255, 255, 255)</colorTwo>
+		</graphicData>
+		<recipeMaker>
+			<researchPrerequisite>OuterRim_RepublicArmory</researchPrerequisite>
+		</recipeMaker>
+		<apparel>
+			<useWornGraphicMask>true</useWornGraphicMask>
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(255, 255, 255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+</Defs>

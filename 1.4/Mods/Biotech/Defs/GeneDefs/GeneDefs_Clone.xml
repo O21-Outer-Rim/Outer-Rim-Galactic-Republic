@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<!-- Clone Xenotype -->
+
+	<XenotypeDef>
+		<defName>OuterRim_FettClone</defName>
+		<label>fett clone</label>
+		<description>Created from the DNA of a single donor named Jango Fett, these clones were grown to fight for the Galactic Republic during the Clone Wars.</description>
+		<descriptionShort>Created from the DNA of a single donor named Jango Fett, these clones were grown to fight for the Galactic Republic during the Clone Wars.</descriptionShort>
+		<iconPath>OuterRim/XenotypeIcons/Xenotype_FettClone</iconPath>
+		<inheritable>true</inheritable>
+		<nameMaker>OuterRim_NamerCloneTrooper</nameMaker>
+		<chanceToUseNameMaker>1</chanceToUseNameMaker>
+		<genes>
+			<li>Body_Standard</li>
+			<li>Hair_DarkBlack</li>
+			<li>Skin_Melanin7</li>
+			<li>Outland_AcceleratedAgeing</li>
+			<li>OuterRim_CloneBiochip</li>
+		</genes>
+	</XenotypeDef>
+
+	<!-- Control Chip -->
+
+	<GeneDef>
+		<defName>OuterRim_CloneBiochip</defName>
+		<label>clone biochip</label>
+		<description>Carriers of this gene have a biochip that will grow in their brain as it develops, the creators of the gene claim it is to help keep clones more obedient.\n\nNote: This sets up specific data on clones, designed specifically for them, using it on your own xenotypes is not recommended.</description>
+		<geneClass>OuterRimGalacticRepublic.Gene_CloneBiochip</geneClass>
+		<iconPath>OuterRim/GeneIcons/Gene_CloneBiochip</iconPath>
+		<displayCategory>Miscellaneous</displayCategory>
+		<biostatMet>0</biostatMet>
+		<canGenerateInGeneSet>false</canGenerateInGeneSet>
+		<displayOrderInCategory>9501</displayOrderInCategory>
+		<passOnDirectly>false</passOnDirectly>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>OuterRim/GeneIcons/EndogeneBG</backgroundPathEndogenes>
+				<backgroundPathXenogenes>OuterRim/GeneIcons/XenogeneBG</backgroundPathXenogenes>
+			</li>
+		</modExtensions>
+	</GeneDef>
+
+</Defs>

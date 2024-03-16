@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	
+	<ThingDef ParentName="OuterRim_MediumHelmetFabricatedBase" Name="CloneArmorPhaseOneHelmetBase">
+		<defName>OuterRim_CloneHelmet_PhaseOne</defName>
+		<label>clone helmet I (blank)</label>
+		<description>Phase I clone trooper armor was the standard issue armor of the Grand Army of the Republic's clone troopers during the early portions of the Clone Wars. It was later replaced by the Phase II armor, which was better adapted to human anatomy.</description>
+		<graphicData>
+			<texPath>OuterRim/Apparel/CloneTrooper/PhaseOne/RookieHelmet</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<recipeMaker>
+			<researchPrerequisite>OuterRim_RepublicArmory</researchPrerequisite>
+		</recipeMaker>
+		<apparel>
+			<tags Inherit="False">
+				<li>RepublicCloneApparel</li>
+				<li>ClonePhaseOneShiny</li>
+			</tags>
+			<wornGraphicPath>OuterRim/Apparel/CloneTrooper/PhaseOne/RookieHelmet</wornGraphicPath>
+			<useWornGraphicMask>true</useWornGraphicMask>
+		</apparel>
+	</ThingDef>
+	
+	<ThingDef ParentName="CloneArmorPhaseOneHelmetBase">
+		<defName>OuterRim_CloneHelmet_PhaseOne_Sergeant</defName>
+		<label>clone helmet I (sergeant)</label>
+		<graphicData>
+			<texPath>OuterRim/Apparel/CloneTrooper/PhaseOne/SergeantHelmet</texPath>
+		</graphicData>
+		<apparel>
+			<tags Inherit="False">
+				<li>RepublicCloneApparel</li>
+				<li>ClonePhaseOneSergeant</li>
+			</tags>
+			<wornGraphicPath>OuterRim/Apparel/CloneTrooper/PhaseOne/SergeantHelmet</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+	
+	<ThingDef ParentName="CloneArmorPhaseOneHelmetBase">
+		<defName>OuterRim_CloneHelmet_PhaseOne_Lieutenant</defName>
+		<label>clone helmet I (lieutenant)</label>
+		<graphicData>
+			<texPath>OuterRim/Apparel/CloneTrooper/PhaseOne/LieutenantHelmet</texPath>
+		</graphicData>
+		<apparel>
+			<tags Inherit="False">
+				<li>RepublicCloneApparel</li>
+				<li>ClonePhaseOneLieutenant</li>
+			</tags>
+			<wornGraphicPath>OuterRim/Apparel/CloneTrooper/PhaseOne/LieutenantHelmet</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+	
+	<ThingDef ParentName="CloneArmorPhaseOneHelmetBase">
+		<defName>OuterRim_CloneHelmet_PhaseOne_Captain</defName>
+		<label>clone helmet I (captain)</label>
+		<graphicData>
+			<texPath>OuterRim/Apparel/CloneTrooper/PhaseOne/CaptainHelmet</texPath>
+		</graphicData>
+		<apparel>
+			<tags Inherit="False">
+				<li>RepublicCloneApparel</li>
+				<li>ClonePhaseOneCaptain</li>
+			</tags>
+			<wornGraphicPath>OuterRim/Apparel/CloneTrooper/PhaseOne/CaptainHelmet</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+	
+	<ThingDef ParentName="CloneArmorPhaseOneHelmetBase">
+		<defName>OuterRim_CloneHelmet_PhaseOne_Commander</defName>
+		<label>clone helmet I (commander)</label>
+		<graphicData>
+			<texPath>OuterRim/Apparel/CloneTrooper/PhaseOne/CommanderHelmet</texPath>
+		</graphicData>
+		<apparel>
+			<tags Inherit="False">
+				<li>RepublicCloneApparel</li>
+				<li>ClonePhaseOneCommander</li>
+			</tags>
+			<wornGraphicPath>OuterRim/Apparel/CloneTrooper/PhaseOne/CommanderHelmet</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+	
+</Defs>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="OuterRimBlasterBase_Rifle">
+		<defName>OuterRim_DC15ACarbine</defName>
+		<label>dc-15a blaster</label>
+		<description>The DC-15A blaster was a blaster model used by the Grand Army of the Republic. While smaller than the larger DC-15 blaster rifle, both could be referred to as blaster rifles.</description>
+		<graphicData>
+			<texPath>OuterRim/Weapons/DC15A_Carbine</texPath>
+		</graphicData>
+		<recipeMaker>
+			<researchPrerequisite>OuterRim_RepublicArmory</researchPrerequisite>
+		</recipeMaker>
+		<weaponTags>
+			<li>ORRepublicAny</li>
+			<li>ORRepublicCarbine</li>
+			<li>ORRepublicRifle</li>
+		</weaponTags>
+		<tradeTags>
+			<li>OuterRim_Republic_Weapons</li>
+		</tradeTags>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>OuterRim_Bullet_RifleBlue</defaultProjectile>
+				<warmupTime>0.9</warmupTime>
+				<range>30</range>
+				<ticksBetweenBurstShots>10</ticksBetweenBurstShots>
+				<burstShotCount>3</burstShotCount>
+				<soundCast>OuterRim_Shot_DC15BlasterBolt</soundCast>
+				<soundCastTail>GunTail_Medium</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+			</li>
+		</verbs>
+	</ThingDef>
+
+</Defs>

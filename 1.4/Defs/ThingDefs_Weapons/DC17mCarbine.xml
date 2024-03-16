@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="OuterRimBlasterBase_Rifle">
+		<defName>OuterRim_DC17mCarbine</defName>
+		<label>dc-17m repeating blaster</label>
+		<description>A model of blaster carbine used during the Clone Wars by Clone Commandos.</description>
+		<graphicData>
+			<texPath>OuterRim/Weapons/DC17MBlaster</texPath>
+		</graphicData>
+		<recipeMaker>
+			<researchPrerequisite>OuterRim_RepublicArmory</researchPrerequisite>
+		</recipeMaker>
+		<weaponTags>
+			<li>ORRepublicAny</li>
+			<li>ORRepublicCommando</li>
+		</weaponTags>
+		<tradeTags>
+			<li>OuterRim_Republic_Weapons</li>
+		</tradeTags>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>OuterRim_Bullet_RifleBlue</defaultProjectile>
+				<warmupTime>0.9</warmupTime>
+				<range>28</range>
+				<ticksBetweenBurstShots>12</ticksBetweenBurstShots>
+				<burstShotCount>2</burstShotCount>
+				<soundCast>OuterRim_Shot_EE13BlasterBolt</soundCast>
+				<soundCastTail>GunTail_Medium</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+			</li>
+		</verbs>
+	</ThingDef>
+
+</Defs>

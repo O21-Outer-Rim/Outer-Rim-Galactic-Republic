@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	
+	<ThingDef ParentName="CloneCuirassIIBase">
+		<defName>OuterRim_CloneCuirassII_Trooper_Half</defName>
+		<label>clone cuirass II, trooper (half)</label>
+		<graphicData>
+			<texPath>OuterRim/Apparel/CloneTrooper/PhaseTwo/Half/Cuirass/Apparel</texPath>
+			<color>(150, 150, 150)</color>
+		</graphicData>
+		<apparel>
+			<tags Inherit="False">
+				<li>RepublicCloneApparel</li>
+				<li>CloneTrooperIIHalf</li>
+			</tags>
+			<wornGraphicPath>OuterRim/Apparel/CloneTrooper/PhaseTwo/Half/Cuirass/Apparel</wornGraphicPath>
+			<useWornGraphicMask>true</useWornGraphicMask>
+		</apparel>
+	</ThingDef>
+	
+	<ThingDef ParentName="CloneCuirassIIBase">
+		<defName>OuterRim_CloneCuirassII_Snow_Half</defName>
+		<label>clone cuirass II, marine (half)</label>
+		<graphicData>
+			<texPath>OuterRim/Apparel/CloneTrooper/PhaseTwo/Half/CuirassSnow/Apparel</texPath>
+			<color>(150, 150, 150)</color>
+		</graphicData>
+		<apparel>
+			<tags Inherit="False">
+				<li>RepublicCloneApparel</li>
+				<li>CloneTrooperIIHalf</li>
+			</tags>
+			<wornGraphicPath>OuterRim/Apparel/CloneTrooper/PhaseTwo/Half/CuirassSnow/Apparel</wornGraphicPath>
+			<useWornGraphicMask>true</useWornGraphicMask>
+		</apparel>
+	</ThingDef>
+	
+</Defs>

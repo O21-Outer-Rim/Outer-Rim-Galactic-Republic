@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<FactionDef ParentName="FactionBase">
+		<defName>OuterRim_GalacticRepublic</defName>
+		<label>Galactic Republic</label>
+		<description>The Galactic Republic army is comprised almost entirely of Clones created on the planet Kamino, a very small number of non-clones are in command positions as well as Jedi leading the army in position of Generals, often taking part in battle and ensuring a decisive victory.</description>
+		<pawnsPlural>Republic Troopers</pawnsPlural>
+		<settlementGenerationWeight>0.3</settlementGenerationWeight>
+		<requiredCountAtGameStart>1</requiredCountAtGameStart>
+		<earliestRaidDays>35</earliestRaidDays>
+		<canMakeRandomly>true</canMakeRandomly>
+		<basicMemberKind>OuterRim_CloneP2Trader</basicMemberKind>
+		<canSiege>true</canSiege>
+		<canStageAttacks>true</canStageAttacks>
+		<leaderTitle>Jedi General</leaderTitle>
+		<fixedLeaderKinds>
+			<!-- <li MayRequire="Neronix17.OuterRim.HokeyReligions">OuterRim_JediGeneralMaster</li> -->
+		</fixedLeaderKinds>
+		<permanentEnemy>false</permanentEnemy>
+		<permanentEnemyToEveryoneExceptPlayer>true</permanentEnemyToEveryoneExceptPlayer>
+		<leaderForceGenerateNewPawn>true</leaderForceGenerateNewPawn>
+		<fixedName>Galactic Republic</fixedName>
+		<settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
+		<techLevel>Ultra</techLevel>
+		<backstoryFilters>
+			<li>
+				<categories>
+					<li>CloneTrooperBackstory</li>
+				</categories>
+			</li>
+		</backstoryFilters>
+		<visitorTraderKinds>
+			<li>OuterRim_GalacticRepublic_Visitor</li>
+		</visitorTraderKinds>
+		<caravanTraderKinds>
+			<li>OuterRim_GalacticRepublic_Carvan</li>
+		</caravanTraderKinds>
+		<baseTraderKinds>
+			<li>OuterRim_GalacticRepublic_Base</li>
+		</baseTraderKinds>
+		<allowedArrivalTemperatureRange>
+			<min>-50</min>
+			<max>45</max>
+		</allowedArrivalTemperatureRange>
+		<maxPawnCostPerTotalPointsCurve>
+			<points>
+				<li>(0,35)</li>
+				<li>(70, 50)</li>
+				<li>(700, 100)</li>
+				<li>(1300, 150)</li>
+				<li>(100000, 10000)</li>
+			</points>
+		</maxPawnCostPerTotalPointsCurve>
+		<pawnGroupMakers>
+		</pawnGroupMakers>
+		<settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
+		<factionIconPath>OuterRim/UI/Cultures/Republic</factionIconPath>
+		<colorSpectrum>
+			<li>RGB(255, 255, 255)</li>
+		</colorSpectrum>
+		<allowedCultures>
+			<li>OuterRim_CultureRepublic</li>
+		</allowedCultures>
+		<requiredMemes>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Structure_Ideological</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology, Neronix17.OuterRim.HokeyReligions">OuterRim_MemeBendu</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Collectivist</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Loyalist</li>
+		</requiredMemes>
+		<disallowedPrecepts>
+			<li MayRequire="Ludeon.RimWorld.Ideology">IdeoDiversity_Abhorrent</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">IdeoDiversity_Horrible</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">IdeoDiversity_Disapproved</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Raiding_Respected</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Raiding_Required</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Research_None</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Research_ExtremelySlow</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Slavery_Honorable</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Slavery_Acceptable</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">DrugUse_MedicalOrSocial</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Cannibalism_RequiredRavenous</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Cannibalism_RequiredStrong</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Cannibalism_Preferred</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Cannibalism_Disapproved</li>
+		</disallowedPrecepts>
+		<maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
+		<configurationListOrderPriority>30</configurationListOrderPriority>
+	</FactionDef>
+
+</Defs>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="ApparelMakeableBase">
+		<defName>OuterRim_CloneKama</defName>
+		<label>clone kama</label>
+		<description>A mostly decorative piece of clothing worn over armour.</description>
+		<techLevel>Ultra</techLevel>
+		<graphicData>
+			<texPath>OuterRim/Apparel/CloneTrooper/PhaseTwo/Blank/Kama/Apparel</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<costStuffCount>80</costStuffCount>
+		<stuffCategories>
+			<li>Fabric</li>
+			<li>Leathery</li>
+		</stuffCategories>
+		<thingCategories>
+			<li>Apparel</li>
+		</thingCategories>
+		<recipeMaker>
+			<unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
+			<researchPrerequisite>OuterRim_RepublicArmory</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>4</Crafting>
+			</skillRequirements>
+            <recipeUsers Inherit="False">
+                <li>OuterRim_HypertechFabricator</li>
+            </recipeUsers>
+		</recipeMaker>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<WorkToMake>5000</WorkToMake>
+			<Mass>1.7</Mass>
+			<StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.80</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.30</StuffEffectMultiplierInsulation_Heat>
+			<EquipDelay>1.5</EquipDelay>
+		</statBases>
+		<apparel>
+			<bodyPartGroups>
+				<li>Legs</li>
+			</bodyPartGroups>
+			<wornGraphicPath>OuterRim/Apparel/CloneTrooper/PhaseTwo/Blank/Kama/Apparel</wornGraphicPath>
+			<layers>
+				<li>MiddleExtra</li>
+			</layers>
+			<tags Inherit="False">
+				<li>RepublicCloneApparel</li>
+				<li>CloneTrooperIIBlank</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+		</apparel>
+	</ThingDef>
+
+</Defs>
