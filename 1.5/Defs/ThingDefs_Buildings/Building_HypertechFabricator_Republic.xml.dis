@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="HypertechFabricatorBase">
+		<defName>OuterRim_HypertechFabricator_Republic</defName>
+		<label>republic fabricator</label>
+		<description>A hypertech work station for creating Galactic Empire equipment.</description>
+		<graphicData>
+			<texPath>OuterRim/Building/RepublicFabricationBench</texPath>
+		</graphicData>
+		<costList Inherit="False">
+			<OuterRim_Durasteel>150</OuterRim_Durasteel>
+			<OuterRim_ComponentHypertech>3</OuterRim_ComponentHypertech>
+		</costList>
+		<recipes Inherit="False">
+		</recipes>
+		<researchPrerequisites Inherit="False">
+			<li>OuterRim_RepublicArmory</li>
+		</researchPrerequisites>
+	</ThingDef>
+
+</Defs>

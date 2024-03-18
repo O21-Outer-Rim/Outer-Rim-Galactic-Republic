@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<ThingDef ParentName="OuterRim_HeavyPauldronsFabricatedBase">
+		<defName>OuterRim_CloneCommandoPauldrons</defName>
+		<label>clone commando pauldrons</label>
+		<description>Armoured pauldrons used by the Clone Commandos as part of the Grand Army of the Republic.</description>
+		<graphicData>
+			<texPath>OuterRim/Apparel/CloneCommando/Pauldrons/Apparel</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<color>(255, 255, 255)</color>
+		</graphicData>
+		<recipeMaker>
+			<researchPrerequisite>OuterRim_RepublicArmory</researchPrerequisite>
+		</recipeMaker>
+		<apparel>
+			<tags Inherit="False">
+				<li>RepublicCloneApparel</li>
+				<li>RepublicCommando</li>
+			</tags>
+			<wornGraphicPath>OuterRim/Apparel/CloneCommando/Pauldrons/Apparel</wornGraphicPath>
+			<useWornGraphicMask>false</useWornGraphicMask>
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(255, 255, 255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+</Defs>

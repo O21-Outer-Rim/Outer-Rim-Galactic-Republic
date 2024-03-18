@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	
+	<ThingDef ParentName="ClonePauldronsIIBase">
+		<defName>OuterRim_ClonePauldronsII_Trooper_Chevron</defName>
+		<label>clone pauldrons II, trooper (chevron)</label>
+		<graphicData>
+			<texPath>OuterRim/Apparel/CloneTrooper/PhaseTwo/Chevron/Pauldrons/Apparel</texPath>
+			<color>(150, 150, 150)</color>
+		</graphicData>
+		<apparel>
+			<tags Inherit="False">
+				<li>RepublicCloneApparel</li>
+				<li>CloneTrooperIIChevron</li>
+			</tags>
+			<wornGraphicPath>OuterRim/Apparel/CloneTrooper/PhaseTwo/Chevron/Pauldrons/Apparel</wornGraphicPath>
+			<useWornGraphicMask>true</useWornGraphicMask>
+		</apparel>
+	</ThingDef>
+	
+</Defs>

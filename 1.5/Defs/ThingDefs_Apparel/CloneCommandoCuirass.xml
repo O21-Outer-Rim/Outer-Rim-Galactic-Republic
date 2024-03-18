@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	
+	<ThingDef ParentName="OuterRim_HeavyArmorFabricatedBase">
+		<defName>OuterRim_CloneCommandoCuirass</defName>
+		<label>clone commando cuirass</label>
+		<description>An armoured cuirass used by the Clone Commandos as part of the Grand Army of the Republic.</description>
+		<graphicData>
+			<texPath>OuterRim/Apparel/CloneCommando/Cuirass/Apparel</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<color>(255, 255, 255)</color>
+		</graphicData>
+		<recipeMaker>
+			<researchPrerequisite>OuterRim_RepublicArmory</researchPrerequisite>
+		</recipeMaker>
+		<equippedStatOffsets>
+			<ToxicEnvironmentResistance>0.7</ToxicEnvironmentResistance>
+		</equippedStatOffsets>
+		<apparel>
+			<tags Inherit="False">
+				<li>RepublicCloneApparel</li>
+				<li>RepublicCommando</li>
+			</tags>
+			<wornGraphicPath>OuterRim/Apparel/CloneCommando/Cuirass/Apparel</wornGraphicPath>
+			<useWornGraphicMask>true</useWornGraphicMask>
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options" Inherit="False">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(255, 255, 255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+	
+</Defs>

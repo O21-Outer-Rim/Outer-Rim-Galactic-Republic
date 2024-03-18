@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="OuterRimBlasterBase_HeavyWeapon">
+		<defName>OuterRim_Z6RotaryBlaster</defName>
+		<label>z-6 rotary blaster cannon</label>
+		<description>The Z-6 rotary blaster cannon was a blaster cannon used by the Galactic Republic and the Separatist Alliance during the Clone Wars. Later, during the reign of the Galactic Empire, these weapons were used by both the Imperial Army's Heavy Weapons Stormtroopers and Rebel Alliance's Heavy Soldiers during the Galactic Civil War.</description>
+		<graphicData>
+			<texPath>OuterRim/Weapons/Z6RotaryBlasterCannon</texPath>
+			<drawSize>1.2</drawSize>	
+		</graphicData>
+    	<equippedAngleOffset>45</equippedAngleOffset>
+		<statBases>
+			<AccuracyTouch>0.35</AccuracyTouch>
+			<AccuracyShort>0.45</AccuracyShort>
+			<AccuracyMedium>0.55</AccuracyMedium>
+			<AccuracyLong>0.35</AccuracyLong>
+			<RangedWeapon_Cooldown>1.00</RangedWeapon_Cooldown>
+		</statBases>
+		<recipeMaker>
+			<researchPrerequisite>OuterRim_RepublicArmory</researchPrerequisite>
+		</recipeMaker>
+		<weaponTags>
+			<li>ORRepublicAny</li>
+			<li>ORRepublicHeavy</li>
+			<li>ORRepublicHeavyBlaster</li>
+		</weaponTags>
+		<tradeTags>
+			<li>OuterRim_Republic_Weapons</li>
+		</tradeTags>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>OuterRim_Bullet_Z6BlasterShot</defaultProjectile>
+				<warmupTime>2.0</warmupTime>
+				<range>28</range>
+				<ticksBetweenBurstShots>3</ticksBetweenBurstShots>
+				<burstShotCount>6</burstShotCount>
+				<soundCast>OuterRim_Shot_BlasterBolt</soundCast>
+				<soundCastTail>GunTail_Medium</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+			</li>
+		</verbs>
+	</ThingDef>
+	
+	<ThingDef ParentName="OuterRimBlasterBase_Projectile">
+		<defName>OuterRim_Bullet_Z6BlasterShot</defName>
+		<graphicData>
+			<texPath>OuterRim/Projectile/BlasterBolt_Blue</texPath>
+		</graphicData>
+		<projectile>
+			<damageAmountBase>6</damageAmountBase>
+		</projectile>
+	</ThingDef>
+
+</Defs>
