@@ -4,6 +4,7 @@
 	<description>Outer Rim module adding the Galactic Republic faction.</description>
 	<author>Neronix17</author>
 	<packageId>Neronix17.OuterRim.GalacticRepublic</packageId>
+	<modIconPath IgnoreIfNoMatchingField="True">OuterRim/ModIcon</modIconPath>
 	<url>https://www.patreon.com/neronix17</url>
 	<supportedVersions>
 		<li>1.4</li>
