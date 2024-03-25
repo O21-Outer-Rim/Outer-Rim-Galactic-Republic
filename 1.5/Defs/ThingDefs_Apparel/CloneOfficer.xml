@@ -11,9 +11,6 @@
 			<shaderType>CutoutComplex</shaderType>
 			<color>(255, 255, 255)</color>
 		</graphicData>
-		<recipeMaker>
-			<researchPrerequisite>OuterRim_RepublicArmory</researchPrerequisite>
-		</recipeMaker>
 		<apparel>
 			<tags Inherit="False">
 				<li>CloneOfficer</li>
@@ -41,9 +38,6 @@
 			<shaderType>CutoutComplex</shaderType>
 			<color>(255, 255, 255)</color>
 		</graphicData>
-		<recipeMaker>
-			<researchPrerequisite>OuterRim_RepublicArmory</researchPrerequisite>
-		</recipeMaker>
 		<apparel>
 			<tags Inherit="False">
 				<li>CloneOfficer</li>

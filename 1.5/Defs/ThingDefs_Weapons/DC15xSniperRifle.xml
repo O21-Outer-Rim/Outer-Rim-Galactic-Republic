@@ -10,9 +10,6 @@
 			<drawSize>1.2</drawSize>	
 		</graphicData>
     	<equippedAngleOffset>45</equippedAngleOffset>
-		<recipeMaker>
-			<researchPrerequisite>OuterRim_RepublicArmory</researchPrerequisite>
-		</recipeMaker>
 		<weaponTags>
 			<li>ORRepublicAny</li>
 			<li>ORRepublicSniper</li>

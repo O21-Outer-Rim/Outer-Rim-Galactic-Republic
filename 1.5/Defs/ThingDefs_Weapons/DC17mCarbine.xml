@@ -8,9 +8,6 @@
 		<graphicData>
 			<texPath>OuterRim/Weapons/DC17MBlaster</texPath>
 		</graphicData>
-		<recipeMaker>
-			<researchPrerequisite>OuterRim_RepublicArmory</researchPrerequisite>
-		</recipeMaker>
 		<weaponTags>
 			<li>ORRepublicAny</li>
 			<li>ORRepublicCommando</li>

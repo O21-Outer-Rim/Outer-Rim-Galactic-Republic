@@ -11,9 +11,6 @@
 			<shaderType>CutoutComplex</shaderType>
 			<color>(255, 255, 255)</color>
 		</graphicData>
-		<recipeMaker>
-			<researchPrerequisite>OuterRim_RepublicArmory</researchPrerequisite>
-		</recipeMaker>
 		<equippedStatOffsets>
 			<ToxicEnvironmentResistance>0.3</ToxicEnvironmentResistance>
 		</equippedStatOffsets>

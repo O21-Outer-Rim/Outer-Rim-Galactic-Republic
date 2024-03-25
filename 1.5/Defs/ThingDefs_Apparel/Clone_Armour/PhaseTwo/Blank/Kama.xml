@@ -20,7 +20,6 @@
 		</thingCategories>
 		<recipeMaker>
 			<unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
-			<researchPrerequisite>OuterRim_RepublicArmory</researchPrerequisite>
 			<skillRequirements>
 				<Crafting>4</Crafting>
 			</skillRequirements>

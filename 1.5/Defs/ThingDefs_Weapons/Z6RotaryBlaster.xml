@@ -17,9 +17,6 @@
 			<AccuracyLong>0.35</AccuracyLong>
 			<RangedWeapon_Cooldown>1.00</RangedWeapon_Cooldown>
 		</statBases>
-		<recipeMaker>
-			<researchPrerequisite>OuterRim_RepublicArmory</researchPrerequisite>
-		</recipeMaker>
 		<weaponTags>
 			<li>ORRepublicAny</li>
 			<li>ORRepublicHeavy</li>
