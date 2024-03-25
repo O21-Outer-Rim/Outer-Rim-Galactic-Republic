@@ -14,9 +14,6 @@
 		</costList>
 		<recipes Inherit="False">
 		</recipes>
-		<researchPrerequisites Inherit="False">
-			<li>OuterRim_RepublicArmory</li>
-		</researchPrerequisites>
 	</ThingDef>
 
 </Defs>

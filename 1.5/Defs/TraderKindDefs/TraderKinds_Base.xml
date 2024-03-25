@@ -11,10 +11,6 @@
 				<thingDefCountRange>3~4</thingDefCountRange>
 				<countRange>3~6</countRange>
 			</li>
-			<li Class="StockGenerator_SingleDef">
-				<thingDef>OuterRim_ResearchCore_GalacticRepublic</thingDef>
-				<countRange>-1~1</countRange>
-			</li>
 		</stockGenerators>
 	</TraderKindDef>
 
@@ -28,10 +24,6 @@
 				<thingDefCountRange>3~4</thingDefCountRange>
 				<countRange>3~6</countRange>
 			</li>
-			<li Class="StockGenerator_SingleDef">
-				<thingDef>OuterRim_ResearchCore_GalacticRepublic</thingDef>
-				<countRange>-1~1</countRange>
-			</li>
 		</stockGenerators>
 	</TraderKindDef>
 
@@ -39,10 +31,6 @@
 		<defName>OuterRim_GalacticRepublic_Visitor</defName>
 		<faction>OuterRim_GalacticRepublic</faction>
 		<stockGenerators>
-			<li Class="StockGenerator_SingleDef">
-				<thingDef>OuterRim_ResearchCore_GalacticRepublic</thingDef>
-				<countRange>-1~1</countRange>
-			</li>
 		</stockGenerators>
 	</TraderKindDef>
 
