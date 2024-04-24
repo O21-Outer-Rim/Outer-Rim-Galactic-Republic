@@ -24,6 +24,7 @@
 				<li Class="TabulaRasa.ScenPart_ReinforcementJoins">
 					<def>TabulaRasa_ReinforcementJoins</def>
 					<intervalDays>7</intervalDays>
+					<maxPawns>8</maxPawns>
 					<repeat>True</repeat>
 					<pawnKind>OuterRim_CloneTrooper_PlayerRecruit</pawnKind>
 					<arrivalMode>DropPods</arrivalMode>
