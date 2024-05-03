@@ -14,12 +14,15 @@ namespace OuterRimGalacticRepublic
         public override void PostAdd()
         {
             base.PostAdd();
-            pawn.gender = Gender.Male;
-            pawn.story.bodyType = BodyTypeDefOf.Male;
-            pawn.story.headType = OuterRimGalacticRepublicDefOf.Male_AverageNormal;
-            pawn.story.hairDef = PawnStyleItemChooser.RandomHairFor(pawn);
-            pawn.ageTracker.AgeBiologicalTicks = (20 * 3600000) + (60000 * Rand.Range(1, 28)) + (Find.TickManager.TicksSinceSettle * 2);
-            pawn.ageTracker.AgeChronologicalTicks = Mathf.RoundToInt(pawn.ageTracker.AgeBiologicalTicks / 2);
+            if(pawn.DevelopmentalStage != DevelopmentalStage.Newborn)
+            {
+                pawn.gender = Gender.Male;
+                pawn.story.bodyType = BodyTypeDefOf.Male;
+                pawn.story.headType = OuterRimGalacticRepublicDefOf.Male_AverageNormal;
+                pawn.story.hairDef = PawnStyleItemChooser.RandomHairFor(pawn);
+                pawn.ageTracker.AgeBiologicalTicks = (20 * 3600000) + (60000 * Rand.Range(1, 28)) + (Find.TickManager.TicksSinceSettle * 2);
+                pawn.ageTracker.AgeChronologicalTicks = Mathf.RoundToInt(pawn.ageTracker.AgeBiologicalTicks / 2);
+            }
         }
     }
 }
