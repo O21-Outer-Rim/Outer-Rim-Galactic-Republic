@@ -13,6 +13,7 @@
 				<li>CloneTrooperIIBlank</li>
 			</tags>
 			<wornGraphicPath>OuterRim/Apparel/CloneTrooper/PhaseTwo/Blank/Pauldrons/Apparel</wornGraphicPath>
+			<useWornGraphicMask>false</useWornGraphicMask>
 		</apparel>
 	</ThingDef>
 	
@@ -28,6 +29,7 @@
 				<li>CloneTrooperIIBlank</li>
 			</tags>
 			<wornGraphicPath>OuterRim/Apparel/CloneTrooper/PhaseTwo/Blank/PauldronsARC/Apparel</wornGraphicPath>
+			<useWornGraphicMask>false</useWornGraphicMask>
 		</apparel>
 	</ThingDef>
 	
@@ -43,6 +45,7 @@
 				<li>CloneTrooperIIBlank</li>
 			</tags>
 			<wornGraphicPath>OuterRim/Apparel/CloneTrooper/PhaseTwo/Blank/PauldronsRank/Apparel</wornGraphicPath>
+			<useWornGraphicMask>false</useWornGraphicMask>
 		</apparel>
 	</ThingDef>
 	
