@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/PawnKindDef[@Name="OuterRim_CloneP2Base" or defName="OuterRim_CloneTrooper_PlayerNoHelmet" or defName="OuterRim_CloneTrooper_PlayerRecruit"]</xpath>
+		<value>
+			<xenotypeSet Inherit="False">
+				<xenotypeChances>
+					<OuterRim_FettClone>999</OuterRim_FettClone>
+				</xenotypeChances>
+			</xenotypeSet>
+		</value>
+	</Operation>
+
+</Patch>

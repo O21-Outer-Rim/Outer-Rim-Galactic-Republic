@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<GeneDef>
+		<defName>Outland_AcceleratedAgeing</defName>
+		<label>accelerated ageing</label>
+		<description>Carriers of this gene age much faster than others, roughly halving their typical lifespan.</description>
+		<iconPath>OuterRim/GeneIcons/Gene_AcceleratedAgeing</iconPath>
+		<displayCategory>Miscellaneous</displayCategory>
+		<displayOrderInCategory>7902</displayOrderInCategory>
+		<biologicalAgeTickFactorFromAgeCurve>
+			<points>
+				<li>(0, 2)</li>
+			</points>
+		</biologicalAgeTickFactorFromAgeCurve>
+		<biostatCpx>2</biostatCpx>
+		<biostatMet>3</biostatMet>
+		<customEffectDescriptions>
+			<li>Pawn ages twice as fast regardless of what age they are.</li>
+		</customEffectDescriptions>
+		<symbolPack>
+			<wholeNameSymbols>
+				<li>
+					<symbol>fast-lifer</symbol>
+				</li>
+				<li>
+					<symbol>half-lifer</symbol>
+				</li>
+			</wholeNameSymbols>
+		</symbolPack>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>OuterRim/GeneIcons/EndogeneBG</backgroundPathEndogenes>
+				<backgroundPathXenogenes>OuterRim/GeneIcons/XenogeneBG</backgroundPathXenogenes>
+			</li>
+		</modExtensions>
+	</GeneDef>
+
+</Defs>

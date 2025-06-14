@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	
+	<IdeoIconDef>
+		<defName>OuterRim_Republic</defName>
+		<iconPath>OuterRim/UI/Cultures/Republic</iconPath>
+	</IdeoIconDef>
+
+</Defs>

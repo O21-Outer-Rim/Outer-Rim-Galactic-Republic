@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	
+	<ThingDef ParentName="CloneHelmetIIBase">
+		<defName>OuterRim_CloneHelmetII_Trooper</defName>
+		<label>clone helmet II, trooper (blank)</label>
+		<graphicData>
+			<texPath>OuterRim/Apparel/CloneTrooper/PhaseTwo/Blank/Helmets/Standard</texPath>
+		</graphicData>
+		<apparel>
+			<tags Inherit="False">
+				<li>RepublicCloneApparel</li>
+				<li>CloneTrooperIIBlank</li>
+			</tags>
+			<wornGraphicPath>OuterRim/Apparel/CloneTrooper/PhaseTwo/Blank/Helmets/Standard</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+	
+	<ThingDef ParentName="CloneHelmetIIBase">
+		<defName>OuterRim_CloneHelmetII_ARC</defName>
+		<label>clone helmet II, arc (blank)</label>
+		<graphicData>
+			<texPath>OuterRim/Apparel/CloneTrooper/PhaseTwo/Blank/Helmets/ARC</texPath>
+		</graphicData>
+		<apparel>
+			<tags Inherit="False">
+				<li>RepublicCloneApparel</li>
+				<li>CloneTrooperIIBlank</li>
+			</tags>
+			<wornGraphicPath>OuterRim/Apparel/CloneTrooper/PhaseTwo/Blank/Helmets/ARC</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+	
+	<ThingDef ParentName="CloneHelmetIIBase">
+		<defName>OuterRim_CloneHelmetII_BARC</defName>
+		<label>clone helmet II, barc (blank)</label>
+		<graphicData>
+			<texPath>OuterRim/Apparel/CloneTrooper/PhaseTwo/Blank/Helmets/BARC</texPath>
+		</graphicData>
+		<apparel>
+			<tags Inherit="False">
+				<li>RepublicCloneApparel</li>
+				<li>CloneTrooperIIBlank</li>
+			</tags>
+			<wornGraphicPath>OuterRim/Apparel/CloneTrooper/PhaseTwo/Blank/Helmets/BARC</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+	
+	<ThingDef ParentName="CloneHelmetIIBase">
+		<defName>OuterRim_CloneHelmetII_Desert</defName>
+		<label>clone helmet II, desert (blank)</label>
+		<graphicData>
+			<texPath>OuterRim/Apparel/CloneTrooper/PhaseTwo/Blank/Helmets/Desert</texPath>
+		</graphicData>
+		<apparel>
+			<tags Inherit="False">
+				<li>RepublicCloneApparel</li>
+				<li>CloneTrooperIIBlank</li>
+			</tags>
+			<wornGraphicPath>OuterRim/Apparel/CloneTrooper/PhaseTwo/Blank/Helmets/Desert</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+	
+	<ThingDef ParentName="CloneHelmetIIBase">
+		<defName>OuterRim_CloneHelmetII_Engineer</defName>
+		<label>clone helmet II, engineer (blank)</label>
+		<graphicData>
+			<texPath>OuterRim/Apparel/CloneTrooper/PhaseTwo/Blank/Helmets/Engineer</texPath>
+		</graphicData>
+		<apparel>
+			<tags Inherit="False">
+				<li>RepublicCloneApparel</li>
+				<li>CloneTrooperIIBlank</li>
+			</tags>
+			<wornGraphicPath>OuterRim/Apparel/CloneTrooper/PhaseTwo/Blank/Helmets/Engineer</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+	
+	<ThingDef ParentName="CloneHelmetIIBase">
+		<defName>OuterRim_CloneHelmetII_Heavy</defName>
+		<label>clone helmet II, heavy (blank)</label>
+		<graphicData>
+			<texPath>OuterRim/Apparel/CloneTrooper/PhaseTwo/Blank/Helmets/Heavy</texPath>
+		</graphicData>
+		<apparel>
+			<tags Inherit="False">
+				<li>RepublicCloneApparel</li>
+				<li>CloneTrooperIIBlank</li>
+			</tags>
+			<wornGraphicPath>OuterRim/Apparel/CloneTrooper/PhaseTwo/Blank/Helmets/Heavy</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+	
+	<ThingDef ParentName="CloneHelmetIIBase">
+		<defName>OuterRim_CloneHelmetII_Ops</defName>
+		<label>clone helmet II, ops (blank)</label>
+		<graphicData>
+			<texPath>OuterRim/Apparel/CloneTrooper/PhaseTwo/Blank/Helmets/Ops</texPath>
+		</graphicData>
+		<apparel>
+			<tags Inherit="False">
+				<li>RepublicCloneApparel</li>
+				<li>CloneTrooperIIBlank</li>
+			</tags>
+			<wornGraphicPath>OuterRim/Apparel/CloneTrooper/PhaseTwo/Blank/Helmets/Ops</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+	
+	<ThingDef ParentName="CloneHelmetIIBase">
+		<defName>OuterRim_CloneHelmetII_Pilot</defName>
+		<label>clone helmet II, pilot (blank)</label>
+		<graphicData>
+			<texPath>OuterRim/Apparel/CloneTrooper/PhaseTwo/Blank/Helmets/Pilot</texPath>
+		</graphicData>
+		<apparel>
+			<tags Inherit="False">
+				<li>RepublicCloneApparel</li>
+				<li>CloneTrooperIIBlank</li>
+			</tags>
+			<wornGraphicPath>OuterRim/Apparel/CloneTrooper/PhaseTwo/Blank/Helmets/Pilot</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+	
+	<ThingDef ParentName="CloneHelmetIIBase">
+		<defName>OuterRim_CloneHelmetII_Snow</defName>
+		<label>clone helmet II, snow (blank)</label>
+		<graphicData>
+			<texPath>OuterRim/Apparel/CloneTrooper/PhaseTwo/Blank/Helmets/Snow</texPath>
+		</graphicData>
+		<apparel>
+			<tags Inherit="False">
+				<li>RepublicCloneApparel</li>
+				<li>CloneTrooperIIBlank</li>
+			</tags>
+			<wornGraphicPath>OuterRim/Apparel/CloneTrooper/PhaseTwo/Blank/Helmets/Snow</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+	
+	<ThingDef ParentName="CloneHelmetIIBase">
+		<defName>OuterRim_CloneHelmetII_Captain</defName>
+		<label>clone helmet II, captain (blank)</label>
+		<graphicData>
+			<texPath>OuterRim/Apparel/CloneTrooper/PhaseTwo/Blank/Helmets/Captain</texPath>
+		</graphicData>
+		<apparel>
+			<tags Inherit="False">
+				<li>RepublicCloneApparel</li>
+				<li>CloneTrooperIIBlank</li>
+			</tags>
+			<wornGraphicPath>OuterRim/Apparel/CloneTrooper/PhaseTwo/Blank/Helmets/Captain</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+	
+	<ThingDef ParentName="CloneHelmetIIBase">
+		<defName>OuterRim_CloneHelmetII_Commander</defName>
+		<label>clone helmet II, commander (blank)</label>
+		<graphicData>
+			<texPath>OuterRim/Apparel/CloneTrooper/PhaseTwo/Blank/Helmets/Commander</texPath>
+		</graphicData>
+		<apparel>
+			<tags Inherit="False">
+				<li>RepublicCloneApparel</li>
+				<li>CloneTrooperIIBlank</li>
+			</tags>
+			<wornGraphicPath>OuterRim/Apparel/CloneTrooper/PhaseTwo/Blank/Helmets/Commander</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+	
+</Defs>
