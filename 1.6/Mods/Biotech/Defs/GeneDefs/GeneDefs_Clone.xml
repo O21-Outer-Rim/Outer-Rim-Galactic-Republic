@@ -35,7 +35,7 @@
 		<displayOrderInCategory>9501</displayOrderInCategory>
 		<passOnDirectly>false</passOnDirectly>
 		<modExtensions>
-			<li Class="VanillaGenesExpanded.GeneExtension">
+			<li Class="VEF.Genes.GeneExtension">
 				<backgroundPathEndogenes>OuterRim/GeneIcons/EndogeneBG</backgroundPathEndogenes>
 				<backgroundPathXenogenes>OuterRim/GeneIcons/XenogeneBG</backgroundPathXenogenes>
 			</li>

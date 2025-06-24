@@ -1,0 +1,139 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\RWModCategories\\Neronix17\\OuterRim\\Outer Rim - Galactic Republic\\1.6\\Source\\OuterRimGalacticRepublic\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6B871504-AB31-47B5-AFFC-CA1C78CF12C1}|OuterRimGalacticRepublic.csproj|F:\\RWModCategories\\Neronix17\\OuterRim\\Outer Rim - Galactic Republic\\1.6\\Source\\OuterRimGalacticRepublic\\outerrimgalacticrepublicmod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B871504-AB31-47B5-AFFC-CA1C78CF12C1}|OuterRimGalacticRepublic.csproj|solutionrelative:outerrimgalacticrepublicmod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B871504-AB31-47B5-AFFC-CA1C78CF12C1}|OuterRimGalacticRepublic.csproj|f:\\rwmodcategories\\neronix17\\outerrim\\outer rim - galactic republic\\1.6\\source\\outerrimgalacticrepublic\\outerrimgalacticrepublicsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B871504-AB31-47B5-AFFC-CA1C78CF12C1}|OuterRimGalacticRepublic.csproj|solutionrelative:outerrimgalacticrepublicsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B871504-AB31-47B5-AFFC-CA1C78CF12C1}|OuterRimGalacticRepublic.csproj|F:\\RWModCategories\\Neronix17\\OuterRim\\Outer Rim - Galactic Republic\\1.6\\Source\\OuterRimGalacticRepublic\\harmony\\patch_outerrimcoremod_settings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B871504-AB31-47B5-AFFC-CA1C78CF12C1}|OuterRimGalacticRepublic.csproj|solutionrelative:harmony\\patch_outerrimcoremod_settings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B871504-AB31-47B5-AFFC-CA1C78CF12C1}|OuterRimGalacticRepublic.csproj|f:\\rwmodcategories\\neronix17\\outerrim\\outer rim - galactic republic\\1.6\\source\\outerrimgalacticrepublic\\harmony\\patch_pawngenerator_generatepawnrelations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B871504-AB31-47B5-AFFC-CA1C78CF12C1}|OuterRimGalacticRepublic.csproj|solutionrelative:harmony\\patch_pawngenerator_generatepawnrelations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B871504-AB31-47B5-AFFC-CA1C78CF12C1}|OuterRimGalacticRepublic.csproj|f:\\rwmodcategories\\neronix17\\outerrim\\outer rim - galactic republic\\1.6\\source\\outerrimgalacticrepublic\\patchoperations\\patchoperation_settingactive.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B871504-AB31-47B5-AFFC-CA1C78CF12C1}|OuterRimGalacticRepublic.csproj|solutionrelative:patchoperations\\patchoperation_settingactive.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|OuterRimGalacticRepublic||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B871504-AB31-47B5-AFFC-CA1C78CF12C1}|OuterRimGalacticRepublic.csproj|F:\\RWModCategories\\Neronix17\\OuterRim\\Outer Rim - Galactic Republic\\1.6\\Source\\OuterRimGalacticRepublic\\genes\\gene_clonebiochip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B871504-AB31-47B5-AFFC-CA1C78CF12C1}|OuterRimGalacticRepublic.csproj|solutionrelative:genes\\gene_clonebiochip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B871504-AB31-47B5-AFFC-CA1C78CF12C1}|OuterRimGalacticRepublic.csproj|f:\\rwmodcategories\\neronix17\\outerrim\\outer rim - galactic republic\\1.6\\source\\outerrimgalacticrepublic\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|5e9a8ac2-4f34-4521-858f-4c248ba31532"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "OuterRimGalacticRepublicSettings.cs",
+              "DocumentMoniker": "F:\\RWModCategories\\Neronix17\\OuterRim\\Outer Rim - Galactic Republic\\1.6\\Source\\OuterRimGalacticRepublic\\OuterRimGalacticRepublicSettings.cs",
+              "RelativeDocumentMoniker": "OuterRimGalacticRepublicSettings.cs",
+              "ToolTip": "F:\\RWModCategories\\Neronix17\\OuterRim\\Outer Rim - Galactic Republic\\1.6\\Source\\OuterRimGalacticRepublic\\OuterRimGalacticRepublicSettings.cs",
+              "RelativeToolTip": "OuterRimGalacticRepublicSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T17:20:24.378Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Patch_PawnGenerator_GeneratePawnRelations.cs",
+              "DocumentMoniker": "F:\\RWModCategories\\Neronix17\\OuterRim\\Outer Rim - Galactic Republic\\1.6\\Source\\OuterRimGalacticRepublic\\Harmony\\Patch_PawnGenerator_GeneratePawnRelations.cs",
+              "RelativeDocumentMoniker": "Harmony\\Patch_PawnGenerator_GeneratePawnRelations.cs",
+              "ToolTip": "F:\\RWModCategories\\Neronix17\\OuterRim\\Outer Rim - Galactic Republic\\1.6\\Source\\OuterRimGalacticRepublic\\Harmony\\Patch_PawnGenerator_GeneratePawnRelations.cs",
+              "RelativeToolTip": "Harmony\\Patch_PawnGenerator_GeneratePawnRelations.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAvwBQAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T16:58:52.295Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PatchOperation_SettingActive.cs",
+              "DocumentMoniker": "F:\\RWModCategories\\Neronix17\\OuterRim\\Outer Rim - Galactic Republic\\1.6\\Source\\OuterRimGalacticRepublic\\PatchOperations\\PatchOperation_SettingActive.cs",
+              "RelativeDocumentMoniker": "PatchOperations\\PatchOperation_SettingActive.cs",
+              "ToolTip": "F:\\RWModCategories\\Neronix17\\OuterRim\\Outer Rim - Galactic Republic\\1.6\\Source\\OuterRimGalacticRepublic\\PatchOperations\\PatchOperation_SettingActive.cs",
+              "RelativeToolTip": "PatchOperations\\PatchOperation_SettingActive.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAvwB0AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T16:58:35.616Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "OuterRimGalacticRepublic",
+              "DocumentMoniker": "F:\\RWModCategories\\Neronix17\\OuterRim\\Outer Rim - Galactic Republic\\1.6\\Source\\OuterRimGalacticRepublic\\OuterRimGalacticRepublic.csproj",
+              "RelativeDocumentMoniker": "OuterRimGalacticRepublic.csproj",
+              "ToolTip": "F:\\RWModCategories\\Neronix17\\OuterRim\\Outer Rim - Galactic Republic\\1.6\\Source\\OuterRimGalacticRepublic\\OuterRimGalacticRepublic.csproj",
+              "RelativeToolTip": "OuterRimGalacticRepublic.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-06-24T16:57:44.147Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Patch_OuterRimCoreMod_Settings.cs",
+              "DocumentMoniker": "F:\\RWModCategories\\Neronix17\\OuterRim\\Outer Rim - Galactic Republic\\1.6\\Source\\OuterRimGalacticRepublic\\Harmony\\Patch_OuterRimCoreMod_Settings.cs",
+              "RelativeDocumentMoniker": "Harmony\\Patch_OuterRimCoreMod_Settings.cs",
+              "ToolTip": "F:\\RWModCategories\\Neronix17\\OuterRim\\Outer Rim - Galactic Republic\\1.6\\Source\\OuterRimGalacticRepublic\\Harmony\\Patch_OuterRimCoreMod_Settings.cs",
+              "RelativeToolTip": "Harmony\\Patch_OuterRimCoreMod_Settings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T16:50:29.381Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "OuterRimGalacticRepublicMod.cs",
+              "DocumentMoniker": "F:\\RWModCategories\\Neronix17\\OuterRim\\Outer Rim - Galactic Republic\\1.6\\Source\\OuterRimGalacticRepublic\\OuterRimGalacticRepublicMod.cs",
+              "RelativeDocumentMoniker": "OuterRimGalacticRepublicMod.cs",
+              "ToolTip": "F:\\RWModCategories\\Neronix17\\OuterRim\\Outer Rim - Galactic Republic\\1.6\\Source\\OuterRimGalacticRepublic\\OuterRimGalacticRepublicMod.cs",
+              "RelativeToolTip": "OuterRimGalacticRepublicMod.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAwwCMAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T16:34:31.591Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Gene_CloneBiochip.cs",
+              "DocumentMoniker": "F:\\RWModCategories\\Neronix17\\OuterRim\\Outer Rim - Galactic Republic\\1.6\\Source\\OuterRimGalacticRepublic\\Genes\\Gene_CloneBiochip.cs",
+              "RelativeDocumentMoniker": "Genes\\Gene_CloneBiochip.cs",
+              "ToolTip": "F:\\RWModCategories\\Neronix17\\OuterRim\\Outer Rim - Galactic Republic\\1.6\\Source\\OuterRimGalacticRepublic\\Genes\\Gene_CloneBiochip.cs",
+              "RelativeToolTip": "Genes\\Gene_CloneBiochip.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAABxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T16:31:43.344Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

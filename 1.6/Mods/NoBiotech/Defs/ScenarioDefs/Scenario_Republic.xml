@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
 
-	<ScenarioDef>
+	<ScenarioDef ParentName="ScenarioBase">
 		<defName>OuterRim_RepublicStart</defName>
 		<label>Republic Troopers</label>
 		<description>Four clone troopers sent to this world for a long term training exercise, given very little in terms of equipment and expected to build up an outpost on their own.</description>

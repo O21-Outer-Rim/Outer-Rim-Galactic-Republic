@@ -18,7 +18,7 @@ namespace OuterRimGalacticRepublic
 		[HarmonyPrefix]
 		public static bool Prefix(Pawn pawn)
 		{
-			if (pawn.genes != null && pawn.genes.HasGene(OuterRimGalacticRepublicDefOf.OuterRim_CloneBiochip))
+			if (pawn.genes != null && pawn.genes.HasActiveGene(OuterRimGalacticRepublicDefOf.OuterRim_CloneBiochip))
 			{
 				return false;
 			}

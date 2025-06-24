@@ -27,7 +27,7 @@ namespace OuterRimGalacticRepublic
             {
                 if (!OuterRimGalacticRepublicMod.settings.IsValidSetting(settings[i]))
                 {
-                    LogUtil.LogError($"Configuration error in patch, {settings[i]} is not an existing setting in this mod. This can only check existing boolean settings.");
+                    Log.Error($"Configuration error in patch, {settings[i]} is not an existing setting in this mod. This can only check existing boolean settings.");
                 }
                 if (OuterRimGalacticRepublicMod.settings.GetEnabledSettings.Contains(settings[i]))
                 {
