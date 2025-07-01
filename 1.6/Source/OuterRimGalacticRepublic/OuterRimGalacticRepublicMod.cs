@@ -33,7 +33,7 @@ namespace OuterRimGalacticRepublic
             Version version = Assembly.GetExecutingAssembly().GetName().Version;
             CurrentVersion = $"{version.Major}.{version.Minor}.{version.Build}";
 
-            Log.Message($":: Outer Rim - Galactic Republic :: " + $"{CurrentVersion} ::");
+            Log.Message($":: Outer Rim - Galactic Republic :: ".Colorize(Color.cyan) + $"{CurrentVersion} ::");
 
             if (Prefs.DevMode)
             {
