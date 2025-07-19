@@ -13,6 +13,7 @@
 		</graphicData>
 		<equippedStatOffsets>
 			<ToxicEnvironmentResistance>0.3</ToxicEnvironmentResistance>
+			<VacuumResistance MayRequire="Ludeon.RimWorld.Odyssey">0.69</VacuumResistance>
 		</equippedStatOffsets>
 		<apparel>
 			<immuneToToxGasExposure>true</immuneToToxGasExposure>

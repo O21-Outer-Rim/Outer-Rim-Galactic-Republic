@@ -10,6 +10,9 @@
 			<color>(255, 255, 255)</color>
 			<colorTwo>(255, 255, 255)</colorTwo>
 		</graphicData>
+		<equippedStatOffsets>
+			<VacuumResistance MayRequire="Ludeon.RimWorld.Odyssey">0.32</VacuumResistance>
+		</equippedStatOffsets>
 		<apparel>
 			<useWornGraphicMask>true</useWornGraphicMask>
 		</apparel>
@@ -31,6 +34,9 @@
 			<color>(255, 255, 255)</color>
 			<colorTwo>(255, 255, 255)</colorTwo>
 		</graphicData>
+		<equippedStatOffsets>
+			<VacuumResistance MayRequire="Ludeon.RimWorld.Odyssey">0.69</VacuumResistance>
+		</equippedStatOffsets>
 		<apparel>
 			<useWornGraphicMask>true</useWornGraphicMask>
 		</apparel>
