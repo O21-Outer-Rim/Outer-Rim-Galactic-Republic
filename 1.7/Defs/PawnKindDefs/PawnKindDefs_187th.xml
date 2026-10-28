@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<PawnKindDef ParentName="OuterRim_CloneP2Trooper">
+		<defName>OuterRim_CloneP2Trooper_187th</defName>
+		<apparelTags Inherit="False">
+			<li>CloneTrooperIIHalf</li>
+		</apparelTags>
+		<apparelRequired Inherit="False">
+			<li>OuterRim_Bodysuit</li>
+			<li>OuterRim_CloneCuirassII_Trooper_Half</li>
+			<li>OuterRim_ClonePauldronsII_Trooper_Half</li>
+			<li>OuterRim_CloneHelmetII_Trooper_Half</li>
+		</apparelRequired>
+		<specificApparelRequirements>
+			<li>
+				<apparelLayer>Middle</apparelLayer>
+				<color>(79,55,103)</color>
+			</li>
+			<li>
+				<apparelLayer>MiddleExtra</apparelLayer>
+				<color>(90,90,90)</color>
+			</li>
+			<li>
+				<apparelLayer>ShellExtra</apparelLayer>
+				<color>(79,55,103)</color>
+			</li>
+			<li>
+				<apparelLayer>Overhead</apparelLayer>
+				<color>(79,55,103)</color>
+			</li>
+		</specificApparelRequirements>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="OuterRim_CloneP2Heavy">
+		<defName>OuterRim_CloneP2Heavy_187th</defName>
+		<apparelTags Inherit="False">
+			<li>CloneTrooperIIHalf</li>
+		</apparelTags>
+		<apparelRequired Inherit="False">
+			<li>OuterRim_Bodysuit</li>
+			<li>OuterRim_CloneCuirassII_Trooper_Half</li>
+			<li>OuterRim_ClonePauldronsII_Trooper_Half</li>
+			<li>OuterRim_CloneHelmetII_Heavy_Half</li>
+		</apparelRequired>
+		<specificApparelRequirements>
+			<li>
+				<apparelLayer>Middle</apparelLayer>
+				<color>(79,55,103)</color>
+			</li>
+			<li>
+				<apparelLayer>MiddleExtra</apparelLayer>
+				<color>(90,90,90)</color>
+			</li>
+			<li>
+				<apparelLayer>ShellExtra</apparelLayer>
+				<color>(79,55,103)</color>
+			</li>
+			<li>
+				<apparelLayer>Overhead</apparelLayer>
+				<color>(79,55,103)</color>
+			</li>
+		</specificApparelRequirements>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="OuterRim_CloneP2Trooper_Desert">
+		<defName>OuterRim_CloneP2Trooper_Desert_187th</defName>
+		<apparelTags Inherit="False">
+			<li>CloneTrooperIIHalf</li>
+		</apparelTags>
+		<apparelRequired Inherit="False">
+			<li>OuterRim_Bodysuit</li>
+			<li>OuterRim_CloneCuirassII_Trooper_Half</li>
+			<li>OuterRim_ClonePauldronsII_Trooper_Half</li>
+			<li>OuterRim_CloneHelmetII_Desert_Half</li>
+		</apparelRequired>
+		<specificApparelRequirements>
+			<li>
+				<apparelLayer>Middle</apparelLayer>
+				<color>(79,55,103)</color>
+			</li>
+			<li>
+				<apparelLayer>MiddleExtra</apparelLayer>
+				<color>(90,90,90)</color>
+			</li>
+			<li>
+				<apparelLayer>ShellExtra</apparelLayer>
+				<color>(79,55,103)</color>
+			</li>
+			<li>
+				<apparelLayer>Overhead</apparelLayer>
+				<color>(79,55,103)</color>
+			</li>
+		</specificApparelRequirements>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="OuterRim_CloneP2Trooper_Snow">
+		<defName>OuterRim_CloneP2Trooper_Snow_187th</defName>
+		<apparelTags Inherit="False">
+			<li>CloneTrooperIIHalf</li>
+		</apparelTags>
+		<apparelRequired Inherit="False">
+			<li>OuterRim_Bodysuit</li>
+			<li>OuterRim_CloneKama</li>
+			<li>OuterRim_CloneCuirassII_Snow_Half</li>
+			<li>OuterRim_ClonePauldronsII_Trooper_Half</li>
+			<li>OuterRim_CloneHelmetII_Snow_Half</li>
+		</apparelRequired>
+		<specificApparelRequirements>
+			<li>
+				<apparelLayer>Middle</apparelLayer>
+				<color>(79,55,103)</color>
+			</li>
+			<li>
+				<apparelLayer>MiddleExtra</apparelLayer>
+				<color>(90,90,90)</color>
+			</li>
+			<li>
+				<apparelLayer>ShellExtra</apparelLayer>
+				<color>(79,55,103)</color>
+			</li>
+			<li>
+				<apparelLayer>Overhead</apparelLayer>
+				<color>(79,55,103)</color>
+			</li>
+		</specificApparelRequirements>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="OuterRim_CloneP2Engineer">
+		<defName>OuterRim_CloneP2Engineer_187th</defName>
+		<apparelTags Inherit="False">
+			<li>CloneTrooperIIHalf</li>
+		</apparelTags>
+		<apparelRequired Inherit="False">
+			<li>OuterRim_Bodysuit</li>
+			<li>OuterRim_CloneCuirassII_Trooper_Half</li>
+			<li>OuterRim_ClonePauldronsII_Trooper_Half</li>
+			<li>OuterRim_CloneHelmetII_Engineer_Half</li>
+		</apparelRequired>
+		<specificApparelRequirements>
+			<li>
+				<apparelLayer>Middle</apparelLayer>
+				<color>(79,55,103)</color>
+			</li>
+			<li>
+				<apparelLayer>MiddleExtra</apparelLayer>
+				<color>(90,90,90)</color>
+			</li>
+			<li>
+				<apparelLayer>ShellExtra</apparelLayer>
+				<color>(79,55,103)</color>
+			</li>
+			<li>
+				<apparelLayer>Overhead</apparelLayer>
+				<color>(79,55,103)</color>
+			</li>
+		</specificApparelRequirements>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="OuterRim_CloneP2Operative">
+		<defName>OuterRim_CloneP2Operative_187th</defName>
+		<apparelTags Inherit="False">
+			<li>CloneTrooperIIHalf</li>
+		</apparelTags>
+		<apparelRequired Inherit="False">
+			<li>OuterRim_Bodysuit</li>
+			<li>OuterRim_CloneCuirassII_Trooper_Half</li>
+			<li>OuterRim_ClonePauldronsII_Trooper_Half</li>
+			<li>OuterRim_CloneHelmetII_Ops_Half</li>
+		</apparelRequired>
+		<specificApparelRequirements>
+			<li>
+				<apparelLayer>Middle</apparelLayer>
+				<color>(79,55,103)</color>
+			</li>
+			<li>
+				<apparelLayer>MiddleExtra</apparelLayer>
+				<color>(90,90,90)</color>
+			</li>
+			<li>
+				<apparelLayer>ShellExtra</apparelLayer>
+				<color>(79,55,103)</color>
+			</li>
+			<li>
+				<apparelLayer>Overhead</apparelLayer>
+				<color>(79,55,103)</color>
+			</li>
+		</specificApparelRequirements>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="OuterRim_CloneP2Pilot">
+		<defName>OuterRim_CloneP2Pilot_187th</defName>
+		<apparelTags Inherit="False">
+			<li>CloneTrooperIIHalf</li>
+		</apparelTags>
+		<apparelRequired Inherit="False">
+			<li>OuterRim_Bodysuit</li>
+			<li>OuterRim_CloneCuirassII_Trooper_Half</li>
+			<li>OuterRim_ClonePauldronsII_Trooper_Half</li>
+			<li>OuterRim_CloneHelmetII_Pilot_Half</li>
+		</apparelRequired>
+		<specificApparelRequirements>
+			<li>
+				<apparelLayer>Middle</apparelLayer>
+				<color>(79,55,103)</color>
+			</li>
+			<li>
+				<apparelLayer>MiddleExtra</apparelLayer>
+				<color>(90,90,90)</color>
+			</li>
+			<li>
+				<apparelLayer>ShellExtra</apparelLayer>
+				<color>(79,55,103)</color>
+			</li>
+			<li>
+				<apparelLayer>Overhead</apparelLayer>
+				<color>(79,55,103)</color>
+			</li>
+		</specificApparelRequirements>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="OuterRim_CloneP2Captain">
+		<defName>OuterRim_CloneP2Captain_187th</defName>
+		<apparelTags Inherit="False">
+			<li>CloneTrooperIIHalf</li>
+		</apparelTags>
+		<apparelRequired Inherit="False">
+			<li>OuterRim_Bodysuit</li>
+			<li>OuterRim_CloneKama</li>
+			<li>OuterRim_CloneCuirassII_Trooper_Half</li>
+			<li>OuterRim_ClonePauldronsII_Rank</li>
+			<li>OuterRim_CloneHelmetII_Captain_Half</li>
+		</apparelRequired>
+		<specificApparelRequirements>
+			<li>
+				<apparelLayer>Middle</apparelLayer>
+				<color>(79,55,103)</color>
+			</li>
+			<li>
+				<apparelLayer>MiddleExtra</apparelLayer>
+				<color>(90,90,90)</color>
+			</li>
+			<li>
+				<apparelLayer>ShellExtra</apparelLayer>
+				<color>(79,55,103)</color>
+			</li>
+			<li>
+				<apparelLayer>Overhead</apparelLayer>
+				<color>(79,55,103)</color>
+			</li>
+		</specificApparelRequirements>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="OuterRim_CloneP2Commander">
+		<defName>OuterRim_CloneP2Commander_187th</defName>
+		<apparelTags Inherit="False">
+			<li>CloneTrooperIIHalf</li>
+		</apparelTags>
+		<apparelRequired Inherit="False">
+			<li>OuterRim_Bodysuit</li>
+			<li>OuterRim_CloneKama</li>
+			<li>OuterRim_CloneCuirassII_Trooper_Half</li>
+			<li>OuterRim_ClonePauldronsII_Rank</li>
+			<li>OuterRim_CloneHelmetII_Commander_Half</li>
+		</apparelRequired>
+		<specificApparelRequirements>
+			<li>
+				<apparelLayer>Middle</apparelLayer>
+				<color>(79,55,103)</color>
+			</li>
+			<li>
+				<apparelLayer>MiddleExtra</apparelLayer>
+				<color>(90,90,90)</color>
+			</li>
+			<li>
+				<apparelLayer>ShellExtra</apparelLayer>
+				<color>(79,55,103)</color>
+			</li>
+			<li>
+				<apparelLayer>Overhead</apparelLayer>
+				<color>(79,55,103)</color>
+			</li>
+		</specificApparelRequirements>
+	</PawnKindDef>
+
+</Defs>

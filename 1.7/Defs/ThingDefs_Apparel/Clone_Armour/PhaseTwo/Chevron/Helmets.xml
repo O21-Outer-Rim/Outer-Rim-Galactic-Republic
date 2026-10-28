@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	
+	<ThingDef ParentName="CloneHelmetIIBase">
+		<defName>OuterRim_CloneHelmetII_Trooper_Chevron</defName>
+		<label>clone helmet II, trooper (chevron)</label>
+		<graphicData>
+			<texPath>OuterRim/Apparel/CloneTrooper/PhaseTwo/Chevron/Helmets/Standard</texPath>
+			<color>(150, 150, 150)</color>
+		</graphicData>
+		<apparel>
+			<tags Inherit="False">
+				<li>RepublicCloneApparel</li>
+				<li>CloneTrooperIIChevron</li>
+			</tags>
+			<wornGraphicPath>OuterRim/Apparel/CloneTrooper/PhaseTwo/Chevron/Helmets/Standard</wornGraphicPath>
+			<useWornGraphicMask>true</useWornGraphicMask>
+		</apparel>
+	</ThingDef>
+	
+	<ThingDef ParentName="CloneHelmetIIBase">
+		<defName>OuterRim_CloneHelmetII_ARC_Chevron</defName>
+		<label>clone helmet II, arc (chevron)</label>
+		<graphicData>
+			<texPath>OuterRim/Apparel/CloneTrooper/PhaseTwo/Chevron/Helmets/ARC</texPath>
+			<color>(150, 150, 150)</color>
+		</graphicData>
+		<apparel>
+			<tags Inherit="False">
+				<li>RepublicCloneApparel</li>
+				<li>CloneTrooperIIChevron</li>
+			</tags>
+			<wornGraphicPath>OuterRim/Apparel/CloneTrooper/PhaseTwo/Chevron/Helmets/ARC</wornGraphicPath>
+			<useWornGraphicMask>true</useWornGraphicMask>
+		</apparel>
+	</ThingDef>
+	
+	<ThingDef ParentName="CloneHelmetIIBase">
+		<defName>OuterRim_CloneHelmetII_BARC_Chevron</defName>
+		<label>clone helmet II, barc (chevron)</label>
+		<graphicData>
+			<texPath>OuterRim/Apparel/CloneTrooper/PhaseTwo/Chevron/Helmets/BARC</texPath>
+			<color>(150, 150, 150)</color>
+		</graphicData>
+		<apparel>
+			<tags Inherit="False">
+				<li>RepublicCloneApparel</li>
+				<li>CloneTrooperIIChevron</li>
+			</tags>
+			<wornGraphicPath>OuterRim/Apparel/CloneTrooper/PhaseTwo/Chevron/Helmets/BARC</wornGraphicPath>
+			<useWornGraphicMask>true</useWornGraphicMask>
+		</apparel>
+	</ThingDef>
+	
+	<ThingDef ParentName="CloneHelmetIIBase">
+		<defName>OuterRim_CloneHelmetII_Desert_Chevron</defName>
+		<label>clone helmet II, desert (chevron)</label>
+		<graphicData>
+			<texPath>OuterRim/Apparel/CloneTrooper/PhaseTwo/Chevron/Helmets/Desert</texPath>
+			<color>(150, 150, 150)</color>
+		</graphicData>
+		<apparel>
+			<tags Inherit="False">
+				<li>RepublicCloneApparel</li>
+				<li>CloneTrooperIIChevron</li>
+			</tags>
+			<wornGraphicPath>OuterRim/Apparel/CloneTrooper/PhaseTwo/Chevron/Helmets/Desert</wornGraphicPath>
+			<useWornGraphicMask>true</useWornGraphicMask>
+		</apparel>
+	</ThingDef>
+	
+	<ThingDef ParentName="CloneHelmetIIBase">
+		<defName>OuterRim_CloneHelmetII_Engineer_Chevron</defName>
+		<label>clone helmet II, engineer (chevron)</label>
+		<graphicData>
+			<texPath>OuterRim/Apparel/CloneTrooper/PhaseTwo/Chevron/Helmets/Engineer</texPath>
+			<color>(150, 150, 150)</color>
+		</graphicData>
+		<apparel>
+			<tags Inherit="False">
+				<li>RepublicCloneApparel</li>
+				<li>CloneTrooperIIChevron</li>
+			</tags>
+			<wornGraphicPath>OuterRim/Apparel/CloneTrooper/PhaseTwo/Chevron/Helmets/Engineer</wornGraphicPath>
+			<useWornGraphicMask>true</useWornGraphicMask>
+		</apparel>
+	</ThingDef>
+	
+	<ThingDef ParentName="CloneHelmetIIBase">
+		<defName>OuterRim_CloneHelmetII_Heavy_Chevron</defName>
+		<label>clone helmet II, heavy (chevron)</label>
+		<graphicData>
+			<texPath>OuterRim/Apparel/CloneTrooper/PhaseTwo/Chevron/Helmets/Heavy</texPath>
+			<color>(150, 150, 150)</color>
+		</graphicData>
+		<apparel>
+			<tags Inherit="False">
+				<li>RepublicCloneApparel</li>
+				<li>CloneTrooperIIChevron</li>
+			</tags>
+			<wornGraphicPath>OuterRim/Apparel/CloneTrooper/PhaseTwo/Chevron/Helmets/Heavy</wornGraphicPath>
+			<useWornGraphicMask>true</useWornGraphicMask>
+		</apparel>
+	</ThingDef>
+	
+	<ThingDef ParentName="CloneHelmetIIBase">
+		<defName>OuterRim_CloneHelmetII_Ops_Chevron</defName>
+		<label>clone helmet II, ops (chevron)</label>
+		<graphicData>
+			<texPath>OuterRim/Apparel/CloneTrooper/PhaseTwo/Chevron/Helmets/Ops</texPath>
+			<color>(150, 150, 150)</color>
+		</graphicData>
+		<apparel>
+			<tags Inherit="False">
+				<li>RepublicCloneApparel</li>
+				<li>CloneTrooperIIChevron</li>
+			</tags>
+			<wornGraphicPath>OuterRim/Apparel/CloneTrooper/PhaseTwo/Chevron/Helmets/Ops</wornGraphicPath>
+			<useWornGraphicMask>true</useWornGraphicMask>
+		</apparel>
+	</ThingDef>
+	
+	<ThingDef ParentName="CloneHelmetIIBase">
+		<defName>OuterRim_CloneHelmetII_Pilot_Chevron</defName>
+		<label>clone helmet II, pilot (chevron)</label>
+		<graphicData>
+			<texPath>OuterRim/Apparel/CloneTrooper/PhaseTwo/Chevron/Helmets/Pilot</texPath>
+			<color>(150, 150, 150)</color>
+		</graphicData>
+		<apparel>
+			<tags Inherit="False">
+				<li>RepublicCloneApparel</li>
+				<li>CloneTrooperIIChevron</li>
+			</tags>
+			<wornGraphicPath>OuterRim/Apparel/CloneTrooper/PhaseTwo/Chevron/Helmets/Pilot</wornGraphicPath>
+			<useWornGraphicMask>true</useWornGraphicMask>
+		</apparel>
+	</ThingDef>
+	
+	<ThingDef ParentName="CloneHelmetIIBase">
+		<defName>OuterRim_CloneHelmetII_Snow_Chevron</defName>
+		<label>clone helmet II, snow (chevron)</label>
+		<graphicData>
+			<texPath>OuterRim/Apparel/CloneTrooper/PhaseTwo/Chevron/Helmets/Snow</texPath>
+			<color>(150, 150, 150)</color>
+		</graphicData>
+		<apparel>
+			<tags Inherit="False">
+				<li>RepublicCloneApparel</li>
+				<li>CloneTrooperIIChevron</li>
+			</tags>
+			<wornGraphicPath>OuterRim/Apparel/CloneTrooper/PhaseTwo/Chevron/Helmets/Snow</wornGraphicPath>
+			<useWornGraphicMask>true</useWornGraphicMask>
+		</apparel>
+	</ThingDef>
+	
+	<ThingDef ParentName="CloneHelmetIIBase">
+		<defName>OuterRim_CloneHelmetII_Captain_Chevron</defName>
+		<label>clone helmet II, captain (chevron)</label>
+		<graphicData>
+			<texPath>OuterRim/Apparel/CloneTrooper/PhaseTwo/Chevron/Helmets/Captain</texPath>
+			<color>(150, 150, 150)</color>
+		</graphicData>
+		<apparel>
+			<tags Inherit="False">
+				<li>RepublicCloneApparel</li>
+				<li>CloneTrooperIIChevron</li>
+			</tags>
+			<wornGraphicPath>OuterRim/Apparel/CloneTrooper/PhaseTwo/Chevron/Helmets/Captain</wornGraphicPath>
+			<useWornGraphicMask>true</useWornGraphicMask>
+		</apparel>
+	</ThingDef>
+	
+	<ThingDef ParentName="CloneHelmetIIBase">
+		<defName>OuterRim_CloneHelmetII_Commander_Chevron</defName>
+		<label>clone helmet II, commander (chevron)</label>
+		<graphicData>
+			<texPath>OuterRim/Apparel/CloneTrooper/PhaseTwo/Chevron/Helmets/Commander</texPath>
+			<color>(150, 150, 150)</color>
+		</graphicData>
+		<apparel>
+			<tags Inherit="False">
+				<li>RepublicCloneApparel</li>
+				<li>CloneTrooperIIChevron</li>
+			</tags>
+			<wornGraphicPath>OuterRim/Apparel/CloneTrooper/PhaseTwo/Chevron/Helmets/Commander</wornGraphicPath>
+			<useWornGraphicMask>true</useWornGraphicMask>
+		</apparel>
+	</ThingDef>
+	
+</Defs>

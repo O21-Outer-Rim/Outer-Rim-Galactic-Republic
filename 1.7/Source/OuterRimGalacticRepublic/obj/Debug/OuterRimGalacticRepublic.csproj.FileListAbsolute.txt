@@ -1,0 +1,11 @@
+G:\RWModCategories\Neronix17\OuterRim\Outer Rim - Galactic Republic\1.7\Source\OuterRimGalacticRepublic\obj\Debug\OuterRimGalacticRepublic.csproj.AssemblyReference.cache
+G:\RWModCategories\Neronix17\OuterRim\Outer Rim - Galactic Republic\1.7\Source\OuterRimGalacticRepublic\obj\Debug\OuterRimGalacticRepublic.GeneratedMSBuildEditorConfig.editorconfig
+G:\RWModCategories\Neronix17\OuterRim\Outer Rim - Galactic Republic\1.7\Source\OuterRimGalacticRepublic\obj\Debug\OuterRimGalacticRepublic.AssemblyInfoInputs.cache
+G:\RWModCategories\Neronix17\OuterRim\Outer Rim - Galactic Republic\1.7\Source\OuterRimGalacticRepublic\obj\Debug\OuterRimGalacticRepublic.AssemblyInfo.cs
+G:\RWModCategories\Neronix17\OuterRim\Outer Rim - Galactic Republic\1.7\Source\OuterRimGalacticRepublic\obj\Debug\OuterRimGalacticRepublic.csproj.CoreCompileInputs.cache
+G:\RWModCategories\Neronix17\OuterRim\Outer Rim - Galactic Republic\1.7\Source\OuterRimGalacticRepublic\obj\Debug\OuterRimGalacticRepublic.sourcelink.json
+G:\RWModCategories\Neronix17\OuterRim\Outer Rim - Galactic Republic\1.7\Assemblies\OuterRimGalacticRepublic.dll
+G:\RWModCategories\Neronix17\OuterRim\Outer Rim - Galactic Republic\1.7\Source\OuterRimGalacticRepublic\obj\Debug\OuterRimGalacticRepublic.dll
+G:\RWModCategories\Neronix17\OuterRim\Outer Rim - Galactic Republic\1.7\Source\OuterRimGalacticRepublic\obj\Debug\refint\OuterRimGalacticRepublic.dll
+G:\RWModCategories\Neronix17\OuterRim\Outer Rim - Galactic Republic\1.7\Source\OuterRimGalacticRepublic\obj\Debug\ref\OuterRimGalacticRepublic.dll
+G:\RWModCategories\Neronix17\OuterRim\Outer Rim - Galactic Republic\1.7\Source\OuterRimGalacticRepublic\obj\Debug\OuterRim.B92B9A06.Up2Date

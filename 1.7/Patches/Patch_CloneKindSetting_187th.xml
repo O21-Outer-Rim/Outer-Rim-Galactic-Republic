@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+	<Operation Class="OuterRimGalacticRepublic.PatchOperation_SettingActive">
+		<settings>
+			<li>republicClones187th</li>
+		</settings>
+		<active Class="PatchOperationSequence">
+			<success>Always</success>
+			<operations>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/FactionDef[defName="OuterRim_GalacticRepublic"]/fixedLeaderKinds</xpath>
+					<value>
+						<li>OuterRim_CloneP2Commander_187th</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/FactionDef[defName="OuterRim_GalacticRepublic"]/pawnGroupMakers</xpath>
+					<value>
+						<!-- ====== Typical Squad ====== -->
+						<li Class="TabulaRasa.PawnGroupMaker_Temperature">
+							<kindDef>Combat</kindDef>
+							<options>
+								<!-- <OuterRim_JediGeneralKnight MayRequire="Neronix17.OuterRim.HokeyReligions">0.1</OuterRim_JediGeneralKnight> -->
+								<OuterRim_CloneP2Captain_187th>1</OuterRim_CloneP2Captain_187th>
+								<OuterRim_CloneP2Heavy_187th>5</OuterRim_CloneP2Heavy_187th>
+								<OuterRim_CloneP2Operative_187th>5</OuterRim_CloneP2Operative_187th>
+								<OuterRim_CloneP2Engineer_187th>2</OuterRim_CloneP2Engineer_187th>
+								<OuterRim_CloneP2Trooper_187th>80</OuterRim_CloneP2Trooper_187th>
+								<OuterRim_CloneCommando>3</OuterRim_CloneCommando>
+							</options>
+							<minTemperature>0</minTemperature>
+							<maxTemperature>30</maxTemperature>
+						</li>
+						<!-- ====== Cold Weather Squad ====== -->
+						<li Class="TabulaRasa.PawnGroupMaker_Temperature">
+							<kindDef>Combat</kindDef>
+							<options>
+								<!-- <OuterRim_JediGeneralKnight MayRequire="Neronix17.OuterRim.HokeyReligions">0.1</OuterRim_JediGeneralKnight> -->
+								<OuterRim_CloneP2Captain_187th>1</OuterRim_CloneP2Captain_187th>
+								<OuterRim_CloneP2Operative_187th>5</OuterRim_CloneP2Operative_187th>
+								<OuterRim_CloneP2Heavy_187th>5</OuterRim_CloneP2Heavy_187th>
+								<OuterRim_CloneP2Engineer_187th>2</OuterRim_CloneP2Engineer_187th>
+								<OuterRim_CloneP2Trooper_Snow_187th>80</OuterRim_CloneP2Trooper_Snow_187th>
+								<OuterRim_CloneCommando>3</OuterRim_CloneCommando>
+							</options>
+							<maxTemperature>0</maxTemperature>
+						</li>
+						<!-- ====== Hot Weather Squad ====== -->
+						<li Class="TabulaRasa.PawnGroupMaker_Temperature">
+							<kindDef>Combat</kindDef>
+							<options>
+								<!-- <OuterRim_JediGeneralKnight MayRequire="Neronix17.OuterRim.HokeyReligions">0.1</OuterRim_JediGeneralKnight> -->
+								<OuterRim_CloneP2Captain_187th>1</OuterRim_CloneP2Captain_187th>
+								<OuterRim_CloneP2Operative_187th>5</OuterRim_CloneP2Operative_187th>
+								<OuterRim_CloneP2Heavy_187th>5</OuterRim_CloneP2Heavy_187th>
+								<OuterRim_CloneP2Engineer_187th>2</OuterRim_CloneP2Engineer_187th>
+								<OuterRim_CloneP2Trooper_Desert_187th>80</OuterRim_CloneP2Trooper_Desert_187th>
+								<OuterRim_CloneCommando>3</OuterRim_CloneCommando>
+							</options>
+							<minTemperature>30</minTemperature>
+						</li>
+						<li>
+							<kindDef>Peaceful</kindDef>
+							<options>
+								<!-- <OuterRim_JediGeneralKnight MayRequire="Neronix17.OuterRim.HokeyReligions">0.1</OuterRim_JediGeneralKnight> -->
+								<OuterRim_CloneP2Captain_187th>1</OuterRim_CloneP2Captain_187th>
+								<OuterRim_CloneP2Operative_187th>3</OuterRim_CloneP2Operative_187th>
+								<OuterRim_CloneP2Engineer_187th>10</OuterRim_CloneP2Engineer_187th>
+								<OuterRim_CloneP2Trooper_187th>10</OuterRim_CloneP2Trooper_187th>
+								<OuterRim_CloneCommando>3</OuterRim_CloneCommando>
+							</options>
+						</li>
+						<li>
+							<kindDef>Trader</kindDef>
+							<traders>
+								<OuterRim_CloneP2Trader>1</OuterRim_CloneP2Trader>
+							</traders>
+							<carriers>
+								<Muffalo>4</Muffalo>
+							</carriers>
+							<guards>
+								<OuterRim_CloneP2Operative_187th>3</OuterRim_CloneP2Operative_187th>
+								<OuterRim_CloneP2Engineer_187th>10</OuterRim_CloneP2Engineer_187th>
+								<OuterRim_CloneP2Trooper_187th>80</OuterRim_CloneP2Trooper_187th>
+							</guards>
+						</li>
+						<li>
+							<kindDef>Settlement</kindDef>
+							<options>
+								<!-- <OuterRim_JediGeneralMaster MayRequire="Neronix17.OuterRim.HokeyReligions">0.1</OuterRim_JediGeneralMaster>
+										<OuterRim_JediGeneralKnight MayRequire="Neronix17.OuterRim.HokeyReligions">0.3</OuterRim_JediGeneralKnight> -->
+								<OuterRim_CloneP2Commander_187th>1</OuterRim_CloneP2Commander_187th>
+								<OuterRim_CloneP2Operative_187th>3</OuterRim_CloneP2Operative_187th>
+								<OuterRim_CloneP2Engineer_187th>10</OuterRim_CloneP2Engineer_187th>
+								<OuterRim_CloneP2Trooper_187th>80</OuterRim_CloneP2Trooper_187th>
+								<OuterRim_CloneCommando>3</OuterRim_CloneCommando>
+							</options>
+						</li>
+					</value>
+				</li>
+			</operations>
+		</active>
+	</Operation>
+
+</Patch>

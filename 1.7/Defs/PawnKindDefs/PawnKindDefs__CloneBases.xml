@@ -1,0 +1,461 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<PawnKindDef Name="OuterRim_CloneP2Base" Abstract="True">
+		<defaultFactionType>OuterRim_GalacticRepublic</defaultFactionType>
+		<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+		<itemQuality>Normal</itemQuality>
+		<isFighter>true</isFighter>
+		<race>Human</race>
+		<chronologicalAgeRange>20~22</chronologicalAgeRange>
+		<gearHealthRange>
+			<min>0.5</min>
+			<max>2</max>
+		</gearHealthRange>
+		<apparelMoney>
+			<min>1300</min>
+			<max>2000</max>
+		</apparelMoney>
+		<apparelTags>
+			<li>RepublicCloneApparel</li>
+		</apparelTags>
+		<weaponMoney>
+			<min>40000</min>
+			<max>40000</max>
+		</weaponMoney>
+		<techHediffsMoney>
+			<min>12000</min>
+			<max>20000</max>
+		</techHediffsMoney>
+		<techHediffsTags>
+			<li>Advanced</li>
+		</techHediffsTags>
+		<requiredWorkTags>
+			<li>Violent</li>
+		</requiredWorkTags>
+		<invNutrition>2.55</invNutrition>
+		<inventoryOptions>
+			<skipChance>0.9</skipChance>
+			<subOptionsChooseOne>
+				<li>
+					<thingDef>MedicineUltratech</thingDef>
+					<countRange>1</countRange>
+				</li>
+				<li>
+					<thingDef>Silver</thingDef>
+					<countRange>10~300</countRange>
+				</li>
+			</subOptionsChooseOne>
+		</inventoryOptions>
+		<backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>CloneTrooperBackstory</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+		<techHediffsChance>0.1</techHediffsChance>
+		<initialWillRange>5~10</initialWillRange>
+		<initialResistanceRange>10~20</initialResistanceRange>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="OuterRim_CloneP2Base">
+		<defName>OuterRim_CloneP2Trader</defName>
+		<label>trader</label>
+		<labelPlural>traders</labelPlural>
+		<isFighter>true</isFighter>
+		<trader>true</trader>
+		<weaponTags Inherit="false">
+			<li>ORRepublicLight</li>
+		</weaponTags>
+		<apparelAllowHeadgearChance>0.85</apparelAllowHeadgearChance>
+		<apparelTags Inherit="False">
+			<li>CloneOfficer</li>
+		</apparelTags>
+		<apparelRequired>
+			<li>OuterRim_RepublicOfficerUniform</li>
+			<li>OuterRim_RepublicOfficerCap</li>
+		</apparelRequired>
+		<combatPower>50</combatPower>
+		<modExtensions>
+			<li Class="TabulaRasa.DefModExt_PawnKindExtended">
+				<additionalHediffs>
+					<li>
+						<hediff>OuterRim_CloneConditioning</hediff>
+						<severityRange>0.1~0.68</severityRange>
+					</li>
+				</additionalHediffs>
+				<randomAdditionalHediff>false</randomAdditionalHediff>
+			</li>
+		</modExtensions>
+	</PawnKindDef>
+
+	<PawnKindDef Name="OuterRim_CloneP2Trooper" ParentName="OuterRim_CloneP2Base">
+		<defName>OuterRim_CloneP2Trooper</defName>
+		<label>trooper</label>
+		<labelPlural>troopers</labelPlural>
+		<isFighter>true</isFighter>
+		<weaponTags Inherit="false">
+			<li>ORRepublicRifle</li>
+		</weaponTags>
+		<apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
+		<apparelTags Inherit="False">
+			<li>ORBodysuit</li>
+			<li>CloneTrooperIIBlank</li>
+			<li>ORThermalDetBelt</li>
+		</apparelTags>
+		<apparelRequired>
+			<li>OuterRim_Bodysuit</li>
+			<li>OuterRim_CloneCuirassII_Trooper</li>
+			<li>OuterRim_ClonePauldronsII_Trooper</li>
+			<li>OuterRim_CloneHelmetII_Trooper</li>
+			<li MayRequire="VanillaExpanded.VWEG">VWE_Apparel_GrenadeEMPBelt</li>
+		</apparelRequired>
+		<combatPower>100</combatPower>
+		<modExtensions>
+			<li Class="TabulaRasa.DefModExt_PawnKindExtended">
+				<additionalHediffs>
+					<li>
+						<hediff>OuterRim_CloneConditioning</hediff>
+						<severityRange>0.1~0.68</severityRange>
+					</li>
+				</additionalHediffs>
+				<randomAdditionalHediff>false</randomAdditionalHediff>
+				<clearChronicIllness>True</clearChronicIllness>
+				<clearAddictions>True</clearAddictions>
+			</li>
+		</modExtensions>
+	</PawnKindDef>
+
+	<PawnKindDef Name="OuterRim_CloneP2Heavy" ParentName="OuterRim_CloneP2Base">
+		<defName>OuterRim_CloneP2Heavy</defName>
+		<label>heavy trooper</label>
+		<labelPlural>heavy troopers</labelPlural>
+		<isFighter>true</isFighter>
+		<weaponTags Inherit="false">
+			<li>ORRepublicHeavy</li>
+		</weaponTags>
+		<apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
+		<apparelTags Inherit="False">
+			<li>ORBodysuit</li>
+			<li>CloneTrooperIIBlank</li>
+			<li>ORThermalDetBelt</li>
+		</apparelTags>
+		<apparelRequired>
+			<li>OuterRim_Bodysuit</li>
+			<li>OuterRim_CloneCuirassII_Trooper</li>
+			<li>OuterRim_ClonePauldronsII_Trooper</li>
+			<li>OuterRim_CloneHelmetII_Heavy</li>
+			<li MayRequire="VanillaExpanded.VWEG">VWE_Apparel_GrenadeEMPBelt</li>
+		</apparelRequired>
+		<combatPower>80</combatPower>
+		<modExtensions>
+			<li Class="TabulaRasa.DefModExt_PawnKindExtended">
+				<additionalHediffs>
+					<li>
+						<hediff>OuterRim_CloneConditioning</hediff>
+						<severityRange>0.2~0.68</severityRange>
+					</li>
+				</additionalHediffs>
+				<randomAdditionalHediff>false</randomAdditionalHediff>
+				<clearChronicIllness>True</clearChronicIllness>
+				<clearAddictions>True</clearAddictions>
+			</li>
+		</modExtensions>
+	</PawnKindDef>
+
+	<PawnKindDef Name="OuterRim_CloneP2Trooper_Desert" ParentName="OuterRim_CloneP2Base">
+		<defName>OuterRim_CloneP2Trooper_Desert</defName>
+		<label>desert trooper</label>
+		<labelPlural>desert troopers</labelPlural>
+		<isFighter>true</isFighter>
+		<weaponTags Inherit="false">
+			<li>ORRepublicRifle</li>
+		</weaponTags>
+		<apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
+		<apparelTags Inherit="False">
+			<li>ORBodysuit</li>
+			<li>CloneTrooperIIBlank</li>
+		</apparelTags>
+		<apparelRequired>
+			<li>OuterRim_Bodysuit</li>
+			<li>OuterRim_CloneCuirassII_Trooper</li>
+			<li>OuterRim_ClonePauldronsII_Trooper</li>
+			<li>OuterRim_CloneHelmetII_Desert</li>
+			<li MayRequire="VanillaExpanded.VWEG">VWE_Apparel_GrenadeEMPBelt</li>
+		</apparelRequired>
+		<combatPower>100</combatPower>
+		<modExtensions>
+			<li Class="TabulaRasa.DefModExt_PawnKindExtended">
+				<additionalHediffs>
+					<li>
+						<hediff>OuterRim_CloneConditioning</hediff>
+						<severityRange>0.1~0.68</severityRange>
+					</li>
+				</additionalHediffs>
+				<randomAdditionalHediff>false</randomAdditionalHediff>
+				<clearChronicIllness>True</clearChronicIllness>
+				<clearAddictions>True</clearAddictions>
+			</li>
+		</modExtensions>
+	</PawnKindDef>
+
+	<PawnKindDef Name="OuterRim_CloneP2Trooper_Snow" ParentName="OuterRim_CloneP2Base">
+		<defName>OuterRim_CloneP2Trooper_Snow</defName>
+		<label>snow trooper</label>
+		<labelPlural>snow troopers</labelPlural>
+		<isFighter>true</isFighter>
+		<weaponTags Inherit="false">
+			<li>ORRepublicRifle</li>
+		</weaponTags>
+		<apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
+		<apparelTags Inherit="False">
+			<li>ORBodysuit</li>
+			<li>CloneTrooperIIBlank</li>
+		</apparelTags>
+		<apparelRequired>
+			<li>OuterRim_Bodysuit</li>
+			<li>OuterRim_CloneCuirassII_Trooper</li>
+			<li>OuterRim_ClonePauldronsII_Trooper</li>
+			<li>OuterRim_CloneHelmetII_Snow</li>
+			<li MayRequire="VanillaExpanded.VWEG">VWE_Apparel_GrenadeEMPBelt</li>
+		</apparelRequired>
+		<combatPower>100</combatPower>
+		<modExtensions>
+			<li Class="TabulaRasa.DefModExt_PawnKindExtended">
+				<additionalHediffs>
+					<li>
+						<hediff>OuterRim_CloneConditioning</hediff>
+						<severityRange>0.1~0.68</severityRange>
+					</li>
+				</additionalHediffs>
+				<randomAdditionalHediff>false</randomAdditionalHediff>
+				<clearChronicIllness>True</clearChronicIllness>
+				<clearAddictions>True</clearAddictions>
+			</li>
+		</modExtensions>
+	</PawnKindDef>
+
+	<PawnKindDef Name="OuterRim_CloneP2Engineer" ParentName="OuterRim_CloneP2Base">
+		<defName>OuterRim_CloneP2Engineer</defName>
+		<label>engineer</label>
+		<labelPlural>engineers</labelPlural>
+		<isFighter>true</isFighter>
+		<weaponTags Inherit="false">
+			<li>ORRepublicLight</li>
+			<li>ORRepublicCarbine</li>
+		</weaponTags>
+		<apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
+		<apparelTags Inherit="False">
+			<li>ORBodysuit</li>
+			<li>CloneTrooperIIBlank</li>
+		</apparelTags>
+		<apparelRequired>
+			<li>OuterRim_Bodysuit</li>
+			<li>OuterRim_CloneCuirassII_Trooper</li>
+			<li>OuterRim_ClonePauldronsII_Trooper</li>
+			<li>OuterRim_CloneHelmetII_Engineer</li>
+		</apparelRequired>
+		<combatPower>80</combatPower>
+		<modExtensions>
+			<li Class="TabulaRasa.DefModExt_PawnKindExtended">
+				<additionalHediffs>
+					<li>
+						<hediff>OuterRim_CloneConditioning</hediff>
+						<severityRange>0.2~0.68</severityRange>
+					</li>
+				</additionalHediffs>
+				<randomAdditionalHediff>false</randomAdditionalHediff>
+				<clearChronicIllness>True</clearChronicIllness>
+				<clearAddictions>True</clearAddictions>
+			</li>
+		</modExtensions>
+	</PawnKindDef>
+
+	<PawnKindDef Name="OuterRim_CloneCommando" ParentName="OuterRim_CloneP2Base">
+		<defName>OuterRim_CloneCommando</defName>
+		<label>commando</label>
+		<labelPlural>commandos</labelPlural>
+		<isFighter>true</isFighter>
+		<weaponTags Inherit="false">
+			<li>ORRepublicCommando</li>
+		</weaponTags>
+		<apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
+		<apparelTags Inherit="False">
+			<li>ORBodysuit</li>
+			<li>CloneTrooperIIBlank</li>
+		</apparelTags>
+		<apparelRequired>
+			<li>OuterRim_Bodysuit</li>
+			<li>OuterRim_CloneCommandoCuirass</li>
+			<li>OuterRim_CloneCommandoPauldrons</li>
+			<li>OuterRim_CloneCommandoHelmet</li>
+		</apparelRequired>
+		<combatPower>120</combatPower>
+		<modExtensions>
+			<li Class="TabulaRasa.DefModExt_PawnKindExtended">
+				<additionalHediffs>
+					<li>
+						<hediff>OuterRim_CloneConditioning</hediff>
+						<severityRange>0.6~0.8</severityRange>
+					</li>
+				</additionalHediffs>
+				<randomAdditionalHediff>false</randomAdditionalHediff>
+				<clearChronicIllness>True</clearChronicIllness>
+				<clearAddictions>True</clearAddictions>
+			</li>
+		</modExtensions>
+	</PawnKindDef>
+
+	<PawnKindDef Name="OuterRim_CloneP2Operative" ParentName="OuterRim_CloneP2Base">
+		<defName>OuterRim_CloneP2Operative</defName>
+		<label>operative</label>
+		<labelPlural>operatives</labelPlural>
+		<isFighter>true</isFighter>
+		<weaponTags Inherit="false">
+			<li>ORRepublicSniper</li>
+		</weaponTags>
+		<apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
+		<apparelTags Inherit="False">
+			<li>ORBodysuit</li>
+			<li>CloneTrooperIIBlank</li>
+			<li>ORThermalDetBelt</li>
+		</apparelTags>
+		<apparelRequired>
+			<li>OuterRim_Bodysuit</li>
+			<li>OuterRim_CloneCuirassII_Trooper</li>
+			<li>OuterRim_ClonePauldronsII_Trooper</li>
+			<li>OuterRim_CloneHelmetII_Ops</li>
+			<li MayRequire="VanillaExpanded.VWEG">VWE_Apparel_GrenadeEMPBelt</li>
+		</apparelRequired>
+		<combatPower>120</combatPower>
+		<modExtensions>
+			<li Class="TabulaRasa.DefModExt_PawnKindExtended">
+				<additionalHediffs>
+					<li>
+						<hediff>OuterRim_CloneConditioning</hediff>
+						<severityRange>0.2~0.68</severityRange>
+					</li>
+				</additionalHediffs>
+				<randomAdditionalHediff>false</randomAdditionalHediff>
+				<clearChronicIllness>True</clearChronicIllness>
+				<clearAddictions>True</clearAddictions>
+			</li>
+		</modExtensions>
+	</PawnKindDef>
+
+	<PawnKindDef Name="OuterRim_CloneP2Pilot" ParentName="OuterRim_CloneP2Base">
+		<defName>OuterRim_CloneP2Pilot</defName>
+		<label>pilots</label>
+		<labelPlural>pilots</labelPlural>
+		<isFighter>true</isFighter>
+		<weaponTags Inherit="false">
+			<li>ORRepublicLight</li>
+		</weaponTags>
+		<apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
+		<apparelTags Inherit="False">
+			<li>ORBodysuit</li>
+			<li>CloneTrooperIIBlank</li>
+		</apparelTags>
+		<apparelRequired>
+			<li>OuterRim_Bodysuit</li>
+			<li>OuterRim_CloneCuirassII_Trooper</li>
+			<li>OuterRim_ClonePauldronsII_Trooper</li>
+			<li>OuterRim_CloneHelmetII_Pilot</li>
+		</apparelRequired>
+		<combatPower>80</combatPower>
+		<modExtensions>
+			<li Class="TabulaRasa.DefModExt_PawnKindExtended">
+				<additionalHediffs>
+					<li>
+						<hediff>OuterRim_CloneConditioning</hediff>
+						<severityRange>0.2~0.68</severityRange>
+					</li>
+				</additionalHediffs>
+				<randomAdditionalHediff>false</randomAdditionalHediff>
+				<clearChronicIllness>True</clearChronicIllness>
+				<clearAddictions>True</clearAddictions>
+			</li>
+		</modExtensions>
+	</PawnKindDef>
+
+	<PawnKindDef Name="OuterRim_CloneP2Captain" ParentName="OuterRim_CloneP2Base">
+		<defName>OuterRim_CloneP2Captain</defName>
+		<label>captain</label>
+		<labelPlural>captains</labelPlural>
+		<isFighter>true</isFighter>
+		<weaponTags Inherit="false">
+			<li>ORRepublicLight</li>
+			<li>ORRepublicCarbine</li>
+			<li>ORRepublicSniper</li>
+		</weaponTags>
+		<apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
+		<apparelTags Inherit="False">
+			<li>ORBodysuit</li>
+			<li>CloneTrooperIIBlank</li>
+			<li>ORThermalDetBelt</li>
+		</apparelTags>
+		<apparelRequired>
+			<li>OuterRim_Bodysuit</li>
+			<li>OuterRim_CloneCuirassII_Trooper</li>
+			<li>OuterRim_ClonePauldronsII_Rank</li>
+			<li>OuterRim_CloneHelmetII_ARC</li>
+			<li MayRequire="VanillaExpanded.VWEG">VWE_Apparel_GrenadeEMPBelt</li>
+		</apparelRequired>
+		<combatPower>175</combatPower>
+		<modExtensions>
+			<li Class="TabulaRasa.DefModExt_PawnKindExtended">
+				<additionalHediffs>
+					<li>
+						<hediff>OuterRim_CloneConditioning</hediff>
+						<severityRange>0.7~0.78</severityRange>
+					</li>
+				</additionalHediffs>
+				<randomAdditionalHediff>false</randomAdditionalHediff>
+				<clearChronicIllness>True</clearChronicIllness>
+				<clearAddictions>True</clearAddictions>
+			</li>
+		</modExtensions>
+	</PawnKindDef>
+
+	<PawnKindDef Name="OuterRim_CloneP2Commander" ParentName="OuterRim_CloneP2Base">
+		<defName>OuterRim_CloneP2Commander</defName>
+		<label>commander</label>
+		<labelPlural>commanders</labelPlural>
+		<isFighter>true</isFighter>
+		<factionLeader>true</factionLeader>
+		<weaponTags Inherit="false">
+			<li>ORRepublicLight</li>
+			<li>ORRepublicCarbine</li>
+			<li>ORRepublicSniper</li>
+		</weaponTags>
+		<apparelTags Inherit="False">
+			<li>ORBodysuit</li>
+			<li>CloneTrooperIIBlank</li>
+			<li>ORThermalDetBelt</li>
+		</apparelTags>
+		<apparelRequired>
+			<li>OuterRim_Bodysuit</li>
+			<li>OuterRim_CloneCuirassII_Trooper</li>
+			<li>OuterRim_ClonePauldronsII_Rank</li>
+			<li>OuterRim_CloneHelmetII_ARC</li>
+			<li MayRequire="VanillaExpanded.VWEG">VWE_Apparel_GrenadeEMPBelt</li>
+		</apparelRequired>
+		<apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
+		<combatPower>200</combatPower>
+		<modExtensions>
+			<li Class="TabulaRasa.DefModExt_PawnKindExtended">
+				<additionalHediffs>
+					<li>
+						<hediff>OuterRim_CloneConditioning</hediff>
+						<severityRange>0.8~1.0</severityRange>
+					</li>
+				</additionalHediffs>
+				<randomAdditionalHediff>false</randomAdditionalHediff>
+				<clearChronicIllness>True</clearChronicIllness>
+				<clearAddictions>True</clearAddictions>
+			</li>
+		</modExtensions>
+	</PawnKindDef>
+
+</Defs>

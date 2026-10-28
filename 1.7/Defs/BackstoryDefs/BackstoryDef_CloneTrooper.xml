@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	
+	<!-- ============================ Clone Childhoods ========================== -->
+
+	<BackstoryDef>
+		<defName>OuterRim_CloneTroopChild00</defName>
+		<title>Kamino Clone</title>
+		<titleShort>Clone</titleShort>
+		<description>Vat grown and trained from birth, this clone was quite literally born to fight. Kamino clones are well trained in combat, and group coordination, but they aren't great at much else.</description>
+		<slot>Childhood</slot>
+		<bodyTypeGlobal>Male</bodyTypeGlobal>
+		<spawnCategories>
+			<li>CloneTrooperBackstory</li>
+			<li>OuterRimCloneBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<Shooting>7</Shooting>
+			<Melee>7</Melee>
+			<Social>3</Social>
+		</skillGains>
+	</BackstoryDef>
+	
+	<!-- ============================ Clone Adulthoods ========================== -->
+
+	<BackstoryDef>
+		<defName>BackstoryCloneTroopAdult00</defName>
+		<title>Republic Trooper</title>
+		<titleShort>Trooper</titleShort>
+		<description>Nothing Special</description>
+		<slot>Adulthood</slot>
+		<bodyTypeGlobal>Male</bodyTypeGlobal>
+		<spawnCategories>
+			<li>CloneTrooperBackstory</li>
+			<li>OuterRimCloneBackstory</li>
+		</spawnCategories>
+	</BackstoryDef>
+	
+</Defs>

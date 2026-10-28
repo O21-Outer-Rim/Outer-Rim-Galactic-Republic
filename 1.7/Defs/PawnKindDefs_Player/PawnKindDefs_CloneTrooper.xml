@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<PawnKindDef ParentName="OuterRim_BaseColonyPawnKind">
+		<defName>OuterRim_CloneTrooper_PlayerNoHelmet</defName>
+		<label>Clone Trooper</label>
+		<race>Human</race>
+		<defaultFactionType>OuterRim_RepublicPlayerFaction</defaultFactionType>
+		<chronologicalAgeRange>20~22</chronologicalAgeRange>
+		<isFighter>true</isFighter>
+		<weaponTags Inherit="false">
+			<li>ORRepublicCarbine</li>
+		</weaponTags>
+		<apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
+		<apparelTags Inherit="False">
+			<li>ORCloneFatigues</li>
+		</apparelTags>
+		<apparelRequired>
+			<li>OuterRim_CloneTrooperFatigues</li>
+		</apparelRequired>
+		<modExtensions>
+			<li Class="TabulaRasa.DefModExt_PawnKindExtended">
+				<additionalHediffs>
+					<li>
+						<hediff>OuterRim_CloneConditioning</hediff>
+						<severityRange>0.01~0.02</severityRange>
+					</li>
+				</additionalHediffs>
+				<randomAdditionalHediff>false</randomAdditionalHediff>
+				<clearChronicIllness>True</clearChronicIllness>
+				<clearAddictions>True</clearAddictions>
+			</li>
+		</modExtensions>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="OuterRim_BaseColonyPawnKind">
+		<defName>OuterRim_CloneTrooper_PlayerRecruit</defName>
+		<label>Clone Trooper</label>
+		<race>Human</race>
+		<defaultFactionType>OuterRim_RepublicPlayerFaction</defaultFactionType>
+		<chronologicalAgeRange>20~22</chronologicalAgeRange>
+		<isFighter>true</isFighter>
+		<weaponTags Inherit="false">
+			<li>ORRepublicCarbine</li>
+		</weaponTags>
+		<weaponMoney>5000~5000</weaponMoney>
+		<apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
+		<apparelTags Inherit="False">
+			<li>ORCloneFatigues</li>
+		</apparelTags>
+		<apparelRequired>
+			<li>OuterRim_CloneTrooperFatigues</li>
+		</apparelRequired>
+		<modExtensions>
+			<li Class="TabulaRasa.DefModExt_PawnKindExtended">
+				<additionalHediffs>
+					<li>
+						<hediff>OuterRim_CloneConditioning</hediff>
+						<severityRange>0.01~0.02</severityRange>
+					</li>
+				</additionalHediffs>
+				<randomAdditionalHediff>false</randomAdditionalHediff>
+				<clearChronicIllness>True</clearChronicIllness>
+				<clearAddictions>True</clearAddictions>
+			</li>
+		</modExtensions>
+	</PawnKindDef>
+
+</Defs>

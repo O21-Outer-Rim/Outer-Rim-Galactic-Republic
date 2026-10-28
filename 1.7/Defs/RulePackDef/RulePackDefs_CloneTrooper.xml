@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<RulePackDef>
+		<defName>OuterRim_NamerCloneTrooper</defName>
+		<rulePack>
+			<rulesStrings>
+				<!-- <li>name->[CT_Prefix][CT_Dash][CT_Number][CT_Number][CT_Number][CT_Number] '[CT_NicknameFirst][CT_NicknameSecond]'</li> -->
+				<li>name->[CT_Prefix] '[CT_NicknameFull]' [CT_Number][CT_Number][CT_Number][CT_Number]</li>
+			</rulesStrings>
+			<rulesRaw>
+				<li Class="Rule_File">
+					<keyword>CT_Letter</keyword>
+					<path>OuterRim/Droids/NamePartLetter</path>
+				</li>
+				<li Class="Rule_File">
+					<keyword>CT_Number</keyword>
+					<path>OuterRim/Droids/NamePartNumber</path>
+				</li>
+				<li Class="Rule_File">
+					<keyword>CT_Dash</keyword>
+					<path>OuterRim/Droids/NamePartDash</path>
+				</li>
+				<li Class="Rule_File">
+					<keyword>CT_Prefix</keyword>
+					<path>OuterRim/Clones/NamePartPrefix</path>
+				</li>
+				<!-- <li Class="Rule_File">
+					<keyword>CT_NicknameFirst</keyword>
+					<path>OuterRim/Clones/NameNicknameFirst</path>
+				</li>
+				<li Class="Rule_File">
+					<keyword>CT_NicknameSecond</keyword>
+					<path>OuterRim/Clones/NameNicknameSecond</path>
+				</li> -->
+				<li Class="Rule_File">
+					<keyword>CT_NicknameFull</keyword>
+					<path>OuterRim/Clones/NameNicknameFull</path>
+				</li>
+			</rulesRaw>
+		</rulePack>
+	</RulePackDef>
+</Defs>
